@@ -1,0 +1,8 @@
+*
+
+!.gitignore
+!javascript/
+!javascript/calcs/
+!javascript/calcs/equip/
+!javascript/calcs/equip/objects/
+!javascript/calcs/equip/objects/*
