@@ -806,6 +806,8 @@ equip_buff_list = [
     { "id": 434, "name": "Unfamiliar Dawn", "icon": "unfamiliar_dawn", "category": "debuff", "mode": "mult_debuff", "options": ["3 Stacks", "2 Stacks", "1 Stack"], "stats": ["critdmg"], "values": [[15], [10], [5]], "pvp_values": [[7.5], [5], [2.5]] },
     { "id": 672, "name": "Horizon", "icon": "horizon", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 674, "name": "Persistence", "icon": "persistence", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
+    { "id": 677, "name": "Fascinating Development", "icon": "fascinating_development", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefreduction"], "values": [[20]] },
+    { "id": 678, "name": "King le Pix", "icon": "king_le_pix", "category": "debuff", "mode": "mult_debuff", "options": ["2 Stacks", "1 Stack"], "stats": ["critdmg"], "values": [[20], [12.5]] },
     //items
     { "id": 532, "name": "Flos Magica - Rose Petal", "icon": "order_of_the_assassin", "category": "item", "mode": "mult", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10]] },
     { "id": 533, "name": "Dreaming Automata - Gear of Fate", "icon": "order_of_the_assassin", "category": "item", "mode": "mult", "options": ["Basic"], "stats": ["dmg_mod"], "values": [[5]] },
@@ -817,7 +819,7 @@ equip_buff_list = [
     { "id": 628, "name": "Reaper", "icon": "reaper", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 629, "name": "Festival!", "icon": "festival", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10]] },
     { "id": 642, "name": "Attack of Steel Machines", "icon": "attack_of_steel_machines", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[48, 48]] },
-    //677
+    //679
 ]
 
 equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 284, 328, 576]
