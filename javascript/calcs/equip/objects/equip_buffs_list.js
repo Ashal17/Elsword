@@ -693,7 +693,7 @@ equip_buff_list = [
     { "id": 569, "name": "Phantasm", "icon": "phantasm", "category": "class", "class": ["morpheus"], "mode": ["mult", "add"], "options": ["Basic"], "stats": ["matk_mod", "bossdmg"], "values": [[10,15]], "pvp_values": [[5,7.5]] },
     { "id": 617, "name": "Lullaby of Cloudy Night", "icon": "lullaby_of_cloudy_night", "category": "class", "class": ["morpheus"], "mode": "mult_red", "options": ["Defense Ignore"], "stats": ["mdefignore"], "values": [[60]], "pvp_values": [[24]] },
     //lithia
-    { "id": 631, "name": "Gemstones", "icon": "gemstones", "category": "class", "class": ["lithia", "gembliss"], "mode": "mult_red", "options": ["5 Gems", "4 Gems", "3 Gems", "2 Gems", "1 Gem"], "stats": ["pdef%", "mdef%"], "values": [[10, 10], [8, 8], [6, 6], [4, 4], [2, 2]] },
+    { "id": 631, "name": "Gemstones", "icon": "gemstones", "category": "class", "class": ["lithia", "gembliss", "achlys", "mischief"], "mode": "mult_red", "options": ["5 Gems", "4 Gems", "3 Gems", "2 Gems", "1 Gem"], "stats": ["pdef%", "mdef%"], "values": [[10, 10], [8, 8], [6, 6], [4, 4], [2, 2]] },
     //gembliss
     { "id": 632, "name": "Sixth Sense", "icon": "sixth_sense", "category": "class", "class": ["gembliss"], "mode": ["mult", "add", "mult_red", "mult_red"], "options": ["4 Enemies", "3 Enemies", "2 Enemies", "1 Enemy"], "stats": ["mpattack", "resall", "pdef%", "mdef%"], "values": [[20, 50, 15, 15], [15, 40, 12, 12], [9, 30, 9, 9], [6, 20, 6, 6]], "pvp_values": [[10, 25, 7.5, 7.5], [7.5, 20, 6, 6], [4.5, 15, 4.5, 4.5], [3, 10, 3, 3]] },
     { "id": 633, "name": "Awakened Will: Mighty Miner", "icon": "awakened_will_mighty_miner", "category": "class", "class": ["gembliss"], "mode": "mult", "options": ["Basic"], "stats": ["as", "ms", "js"], "values": [[15,10,10]], "pvp_values": [[7.5,5,5]] },
@@ -706,10 +706,25 @@ equip_buff_list = [
     { "id": 640, "name": "Mighty Mining/Strain", "icon": "mighty_mining", "category": "class", "class": ["gembliss"], "mode": "mult_red", "options": ["Defense Ignore"], "stats": ["pdefignore"], "values": [[60]], "pvp_values": [[20]] },
     //avarice
     { "id": 651, "name": "Logical Choice", "icon": "logical_choice", "class": ["avarice"], "category": "class", "mode": "mult", "options": ["Basic"], "stats": ["specialdmg_mod"], "values": [[20]], "pvp_values": [[10]] },
-    { "id": 655, "name": "Understanding And Combination", "icon": "understanding_and_combination", "class": ["avarice"], "category": "class", "mode": ["mult", "mult", "add"], "options": ["Basic"], "stats": ["pdef","mdef",  "bossred"], "values": [[15,15,10]], "pvp_values": [[7.5,7.5,0]] },
+    { "id": 655, "name ": "Understanding And Combination", "icon": "understanding_and_combination", "class": ["avarice"], "category": "class", "mode": ["mult", "mult", "add"], "options": ["Basic"], "stats": ["pdef","mdef",  "bossred"], "values": [[15,15,10]], "pvp_values": [[7.5,7.5,0]] },
     { "id": 656, "name": "Endeavour", "icon": "endeavour", "class": ["avarice"], "category": "class", "mode": "add", "options": ["10 Stacks", "9 Stacks", "8 Stacks", "7 Stacks", "6 Stacks", "5 Stacks", "4 Stacks", "3 Stacks", "2 Stacks", "1 Stack"], "stats": ["critdmg"], "values": [[10], [9], [8], [7], [6], [5], [4], [3], [2], [1]], "pvp_values": [[5], [9 * 0.5], [8 * 0.5], [7 * 0.5], [6 * 0.5], [5 * 0.5], [4 * 0.5], [3 * 0.5], [2 * 0.5], [1 * 0.5]] },
     { "id": 657, "name": "Prove", "icon": "prove", "class": ["avarice"], "category": "class", "mode": "mult_red", "options": ["Basic"], "stats": ["cdr_mod"], "values": [[10]], "pvp_values": [[5]] },
     { "id": 659, "name": "Wish in Mind", "icon": "wish_in_mind", "class": ["avarice"], "category": "class", "mode": ["add","add", "add", "mult", "mult"], "options": ["Basic"], "stats": ["as", "ms", "js", "mpattack", "mpattacked"], "values": [[10,20,20,20,20]], "pvp_values": [[5,10,10,10,10]] },
+    //achlys
+
+    //mischief
+    { "id": 679, "name": "Obelisk", "icon": "obelisk", "class": ["mischief"], "category": "class", "mode": "mult", "options": ["Basic"], "stats": ["specialdmg_mod"], "values": [[15]] },
+    { "id": 680, "name": "An Irresistible Invitation", "icon": "an_irresistible_invitation", "class": ["mischief"], "category": "class", "mode": "add", "options": ["Basic"], "stats": ["as", "ms", "js"], "values": [[10,15,15]] },
+    { "id": 681, "name": "Dice of Fate", "icon": "dice_of_fate", "class": ["mischief"], "category": "class", "mode": "mult_red", "options": ["Basic"], "stats": ["cdr_mod"], "values": [[25]] },
+    { "id": 682, "name": "Fascinating Development", "icon": "fascinating_development", "class": ["mischief"], "category": "class", "mode": "mult", "options": ["Basic"], "stats": ["specialdmg_mod"], "values": [[20]] },
+    { "id": 683, "name": "Strangers", "icon": "strangers", "class": ["mischief"], "category": "class", "mode": "mult", "options": ["Basic"], "stats": ["pdef", "mdef"], "values": [[25,25]] },
+    { "id": 684, "name": "Mocking Laughter", "icon": "mocking_laughter", "class": ["mischief"], "category": "class", "mode": ["mult_red", "add"], "options": ["Basic"], "stats": ["mpr_mod", "mpattack"], "values": [[10,10]] },
+    { "id": 685, "name": "Awakened Will: Cynical Sneer", "icon": "awakened_will_cynical_sneer", "class": ["mischief"], "category": "class", "mode": "add", "options": ["2 Stacks", "1 Stack"], "stats": ["critdmg"], "values": [[20], [16]] },
+    { "id": 686, "name": "Thrilling Climax", "icon": "thrilling_climax", "class": ["mischief"], "category": "class", "mode": ["mult","add"], "options": ["Basic"], "stats": ["matk_mod", "bossdmg"], "values": [[12.5,12.5]] },
+    { "id": 687, "name": "Grand Finale", "icon": "grand_finale", "class": ["mischief"], "category": "class", "mode": ["mult", "add"], "options": ["Basic"], "stats": ["dmg_mod", "bossred"], "values": [[12.5, 12.5]] },
+    { "id": 688, "name": "Disillusionment", "icon": "disillusionment", "class": ["mischief"], "category": "class", "mode": "mult", "options": ["Basic"], "hidden": [0, 1, 0, 1], "stats": ["strength_mod", "specificstrength_mod", "brave_mod", "specificbrave_mod"], "values": [[12.5, 12.5, 12.5, 12.5]] },
+    { "id": 689, "name": "Lucky Chance", "icon": "lucky_chance", "class": ["mischief"], "category": "class", "mode": "mult", "options": ["Basic"], "hidden": [0, 0, 1], "stats": ["command_mod", "flex_mod", "specificflex_mod"], "values": [[12.5, 12.5, 12.5]] },
+    { "id": 690, "name": "Knockout", "icon": "knockout", "class": ["mischief"], "category": "class", "mode": "mult_red", "options": ["Gem Skill", "basic"], "stats": ["mdefignore"], "values": [[60], [50]] },
 
     //debuff
 
@@ -819,10 +834,10 @@ equip_buff_list = [
     { "id": 628, "name": "Reaper", "icon": "reaper", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 629, "name": "Festival!", "icon": "festival", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10]] },
     { "id": 642, "name": "Attack of Steel Machines", "icon": "attack_of_steel_machines", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[48, 48]] },
-    //679
+    //691
 ]
 
-equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 284, 328, 576]
+equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 284, 328, 367, 576]
 
 equip_buff_list_categories = {
     "general": "All",
