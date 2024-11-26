@@ -416,7 +416,7 @@ equip_characters = [
         "attack_type": "physical",
         "modifier_fix": { "patk": 190.5, "matk": 29, "pdef": 20, "mdef": 20, "hpflat": 1 },
         "modifier_scale": { "patk": 79.5, "matk": 51, "pdef": 15, "mdef": 15, "hpflat": 2.5 },
-        "passive": ["maxmp", 100, "patk%_pas", 8, "patk%_pas", 10, "matk%_pas", 10, "pdef%_pas", 10, "mdef%_pas", 10, "hp%_pas", 10],
+        "passive": ["maxmp", 100, "patk%_pas", 15, "patk%_pas", 10, "matk%_pas", 10, "pdef%_pas", 10, "mdef%_pas", 10, "hp%_pas", 10],
         "passive_pvp": ["maxmp", 100, "patk%_pas", 4, "patk%_pas", 10, "matk%_pas", 10, "pdef%_pas", 10, "mdef%_pas", 10, "hp%_pas", 10],
         "passive_hidden": ["crit_u", 15, "ms_m", 10],
         "passive_hidden_pvp": ["crit_u", 15, "ms_m", 10],
