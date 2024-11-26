@@ -1395,7 +1395,7 @@ equip_characters = [
         "modifier_scale": { "patk": 51, "matk": 79.5, "pdef": 14.55, "mdef": 15, "hpflat": 2.5 },
         "passive": ["maxmp", 100, "matk%_pas", 15, "patk%_pas", 10, "matk%_pas", 10, "pdef%_pas", 10, "mdef%_pas", 10, "hp%_pas", 10],
         "passive_pvp": ["maxmp", 100, "matk%_pas", 6, "patk%_pas", 10, "matk%_pas", 10, "pdef%_pas", 10, "mdef%_pas", 10, "hp%_pas", 10],
-        "passive_hidden": ["crit_u", 15, "critdmg_a", 20, "maxi_u", 15,],
+        "passive_hidden": ["crit_u", 15, "critdmg_a", 20, "maxi_u", 15],
         "passive_hidden_pvp": ["crit_u", 15, "critdmg_a", 20, "maxi_u", 15],
         "party_collection_stat": "hyper",
         "party_collection_values": [3,4,5]
