@@ -819,7 +819,7 @@ equip_buff_list = [
     { "id": 506, "name": "Bibi...!", "icon": "bibi", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction"], "values": [[20]], "pvp_values": [[10]] },
     { "id": 696, "name": "Twitter Whistle", "icon": "twitter_whistle", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[12]], "pvp_values": [[6]] },
     { "id": 340, "name": "New Moon Awakening - Debuff", "icon": "new_moon", "category": "debuff", "mode": "mult_red", "options": ["10 Stacks", "9 Stacks", "8 Stacks", "7 Stacks", "6 Stacks", "5 Stacks", "4 Stacks", "3 Stacks", "2 Stacks", "1 Stack"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10], [9, 9], [8, 8], [7, 7], [6, 6], [5, 5], [4, 4], [3, 3], [2, 2], [1, 1]] },
-    { "id": 343, "name": "Mirage", "icon": "mirage", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["pdefreduction"], "values": [[15]] },
+    { "id": 343, "name": "Mirage", "icon": "mirage", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction"], "values": [[15]] },
     { "id": 351, "name": "Blue Nebula", "icon": "nebula", "category": "debuff", "mode": "mult_debuff", "options": ["Basic"], "stats": ["critdmg"], "values": [[12]] },
     { "id": 352, "name": "Purple Nebula", "icon": "nebula", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefreduction"], "values": [[12]], "pvp_values": [[12]] },
     { "id": 354, "name": "Beyond", "icon": "beyond", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefreduction"], "values": [[10]] },
