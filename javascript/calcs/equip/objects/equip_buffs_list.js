@@ -391,8 +391,8 @@ equip_buff_list = [
 
     //code essencia
     { "id": 110, "name": "Electron Upgrade", "category": "class", "class": ["code_essencia"], "icon": "electron_upgrade", "mode": "mult", "options": ["Basic"], "stats": ["as", "ms"], "values": [[10, 10]] },
-    { "id": 691, "name": "Queen's Authority", "category": "class", "class": ["code_essencia"], "icon": "queens_authority", "mode": "mult_red", "options": ["1 stack", "2 stacks", "3 stacks", "4 stacks", "5 stacks", "6 stacks", "7 stacks", "8 stacks", "9 stacks", "10 stacks"], "stats": ["cdr_mod"], "values": [[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]], "pvp_values": [[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]] },
-    { "id": 692, "name": "Queen's Dignity", "category": "class", "class": ["code_essencia"], "icon": "queens_dignity", "mode": "mult", "options": ["Basic"], "stats": ["alldmg_mod"], "values": [[20]], "pvp_values": [[10]] },
+    { "id": 691, "name": "Queen's Authority", "category": "class", "class": ["code_essencia"], "icon": "queens_authority", "mode": ["mult", "mult_red"], "options": ["10 stacks", "9 stacks", "8 stacks", "7 stacks", "6 stacks", "5 stacks", "4 stacks", "3 stacks", "2 stacks", "1 stack"], "stats": ["specialdmg_mod", "cdr_mod"], "values": [[20, 20, 20, 20, 20, 20, 20, 20, 20, 20], [20, 18, 16, 14, 12, 10, 8, 6, 4, 2]], "pvp_values": [[2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]] },
+    { "id": 692, "name": "Queen's Dignity", "category": "class", "class": ["code_essencia"], "icon": "queens_dignity", "mode": "mult", "options": ["Basic"], "stats": ["specialdmg_mod"], "values": [[20]], "pvp_values": [[10]] },
     //code sariel
     { "id": 375, "name": "Code: Recovery - Breaker", "category": "class", "class": ["code_sariel"], "icon": "code_recovery", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefignore"], "values": [[30]] },
     { "id": 111, "name": "Awakened Will: Code: Battle Seraph", "category": "class", "class": ["code_sariel"], "icon": "awakened_will_code_battle_seraph", "mode": "mult", "options": ["Fusion", "Basic"], "stats": ["matk_mod"], "values": [[30], [20]], "pvp_values": [[6], [4]] },
@@ -763,6 +763,7 @@ equip_buff_list = [
     { "id": 454, "name": "Awakened_Will:_Mutant_Reaper", "icon": "awakened_will_mutant_reaper", "category": "debuff", "mode": "mult", "options": ["While Awakened"], "stats": ["dmg50_mod", "dmg10_mod"], "values": [[10, 15]], "pvp_values": [[5, 7.5]] },
     { "id": 447, "name": "Soul Crash", "icon": "soul_crash", "category": "debuff", "mode": "mult_debuff", "options": ["Killing Blow (2)", "Basic"], "stats": ["critdmg"], "values": [[9], [6]] },
     { "id": 448, "name": "Sprout", "icon": "sprout", "category": "debuff", "mode": "mult", "options": ["Stage 3", "Stage 2", "Stage 1"], "stats": ["awk_dmg_mod"], "values": [[8], [6], [4]], "pvp_values": [[4], [3], [2]] },
+    { "id": 697, "name": "Riseon Pride - Oberon", "category": "debuff", "icon": "riseon_pride", "mode": "mult_red", "options": ["3 hits", "2 hits", "1 hit"], "stats": ["pdefreduction"], "values": [[30, 20, 10]] },
     { "id": 409, "name": "Awakened Will: Code Failess", "category": "debuff", "icon": "awakened_will_code_failess", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefignore", "awk_dmg_mod"], "values": [[10, 12]], "pvp_values": [[10, 4.8]] },
     { "id": 660, "name": "Cheat Code: Destruction", "category": "debuff", "icon": "cheat_code_destruction", "mode": "mult", "options": [">50%", "<50%"], "stats": ["awk_dmg_mod"], "values": [[10], [20]], "pvp_values": [[5], [10]] },
     { "id": 661, "name": "Electronic Fall", "category": "debuff", "icon": "electronic_fall", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefreduction"], "values": [[20]], "pvp_values": [[10]] },
@@ -842,7 +843,7 @@ equip_buff_list = [
     { "id": 628, "name": "Reaper", "icon": "reaper", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 629, "name": "Festival!", "icon": "festival", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10]] },
     { "id": 642, "name": "Attack of Steel Machines", "icon": "attack_of_steel_machines", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[48, 48]] },
-    //694
+    //697
 ]
 
 equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 284, 328, 367, 576, 227, 637]
