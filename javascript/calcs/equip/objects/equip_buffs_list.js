@@ -20,7 +20,7 @@ equip_buff_list = [
     { "id": 415, "name": "Rune Field", "icon": "rune_field", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["matk_mod"], "values": [[15]], "pvp_values": [[6]] },
     { "id": 327, "name": "[Force] Infinite Chaser (A)", "category": "general", "class": ["immortal"], "icon": "infinite_chaser", "mode": "mult", "options": ["Basic"], "stats": ["dmg_mod", "ms"], "values": [[10, 30]] },
     { "id": 420, "name": "Enough Mineral", "icon": "enough_mineral", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["ms", "js"], "values": [[20, 20]], "pvp_values": [[10, 10]] },
-    { "id": 421, "name": "Mystic Flask - White", "icon": "mystic_flask", "category": "general", "mode": "critdmg_a", "options": ["Basic"], "stats": ["critdmg"], "values": [[10]], "pvp_values": [[5]] },
+    { "id": 421, "name": "Mystic Flask - White", "icon": "mystic_flask", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["critdmg_a"], "values": [[10]], "pvp_values": [[5]] },
     { "id": 422, "name": "Refined", "icon": "refined", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["alldmg_mod"], "values": [[10]] },
     { "id": 424, "name": "Envelopes", "icon": "envelopes", "category": "general", "mode": "mult_red", "options": ["Basic"], "stats": ["red"], "values": [[20]], "pvp_values": [[10]] },
     { "id": 425, "name": "Philosopher's Stone", "icon": "philosophers_stone", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["patk_mod", "matk_mod"], "values": [[10, 10]] },
@@ -96,7 +96,7 @@ equip_buff_list = [
     { "id": 694, "name": "Fog of Eternity", "icon": "fog_of_eternity", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["matk_mod"], "values": [[18]], "pvp_values": [[9]] },
     { "id": 641, "name": "Power Stone", "icon": "power_stone", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["patk_mod"], "values": [[10]] },
 
-    { "id": 650, "name": "Logical Choice", "icon": "logical_choice", "category": "general", "mode": "mult", "options": ["Vower", "Other party members"], "stats": ["specialdmg_mod"], "values": [[15, 12]], "pvp_values": [[7.5, 6]] },
+    { "id": 650, "name": "Logical Choice", "icon": "logical_choice", "category": "general", "mode": "mult", "options": ["Vower", "Other party members"], "stats": ["specialdmg_mod"], "values": [[15], [12]], "pvp_values": [[7.5], [6]] },
     { "id": 652, "name": "Reasonable Price - Collection and Payment", "icon": "reasonable_price", "category": "general", "mode": "add_u", "options": ["5 Stacks", "4 Stacks", "3 Stacks", "2 Stacks", "1 Stack"], "stats": ["maxmp"], "values": [[60], [48], [36], [24], [12]], "pvp_values": [[6], [4.8], [3.6], [2.4], [1.2]] },
     { "id": 653, "name": "Harmattan", "icon": "harmattan", "category": "general", "mode": "mult", "options": ["Caster/Vower", "Other - RP", "Other"], "stats": ["patk_mod", "matk_mod"], "values": [[12, 12], [10, 10], [8, 8]], "pvp_values": [[6, 6], [5, 5], [4, 4]] },
     { "id": 654, "name": "Generosity", "icon": "generosity", "category": "general", "mode": "mult_red", "options": ["Caster/Vower", "Other - RP", "Other"], "stats": ["red"], "values": [[20], [18], [15]], "pvp_values": [[10], [9], [7.5]] },
@@ -391,7 +391,7 @@ equip_buff_list = [
 
     //code essencia
     { "id": 110, "name": "Electron Upgrade", "category": "class", "class": ["code_essencia"], "icon": "electron_upgrade", "mode": "mult", "options": ["Basic"], "stats": ["as", "ms"], "values": [[10, 10]] },
-    { "id": 691, "name": "Queen's Authority", "category": "class", "class": ["code_essencia"], "icon": "queens_authority", "mode": ["mult", "mult_red"], "options": ["10 stacks", "9 stacks", "8 stacks", "7 stacks", "6 stacks", "5 stacks", "4 stacks", "3 stacks", "2 stacks", "1 stack"], "stats": ["specialdmg_mod", "cdr_mod"], "values": [[20, 20, 20, 20, 20, 20, 20, 20, 20, 20], [20, 18, 16, 14, 12, 10, 8, 6, 4, 2]], "pvp_values": [[2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]] },
+    { "id": 691, "name": "Queen's Authority", "category": "class", "class": ["code_essencia"], "icon": "queens_authority", "mode": ["mult", "mult_red"], "options": ["10 stacks", "9 stacks", "8 stacks", "7 stacks", "6 stacks", "5 stacks", "4 stacks", "3 stacks", "2 stacks", "1 stack"], "stats": ["specialdmg_mod", "cdr_mod"], "values": [[20, 20], [20, 18], [20, 16], [20, 14], [20, 12], [20, 10], [20, 8], [20, 6], [20, 4], [20, 2]], "pvp_values": [[10, 10], [10, 9], [10, 8], [10, 7], [10, 6], [10, 5], [10, 4], [10, 3], [10, 2], [10, 1]] },
     { "id": 692, "name": "Queen's Dignity", "category": "class", "class": ["code_essencia"], "icon": "queens_dignity", "mode": "mult", "options": ["Basic"], "stats": ["specialdmg_mod"], "values": [[20]], "pvp_values": [[10]] },
     //code sariel
     { "id": 375, "name": "Code: Recovery - Breaker", "category": "class", "class": ["code_sariel"], "icon": "code_recovery", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefignore"], "values": [[30]] },
@@ -843,7 +843,7 @@ equip_buff_list = [
     { "id": 628, "name": "Reaper", "icon": "reaper", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 629, "name": "Festival!", "icon": "festival", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10]] },
     { "id": 642, "name": "Attack of Steel Machines", "icon": "attack_of_steel_machines", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[48, 48]] },
-    //697
+    //698
 ]
 
 equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 284, 328, 367, 576, 227, 637]
