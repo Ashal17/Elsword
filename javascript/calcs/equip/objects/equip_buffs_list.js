@@ -93,6 +93,7 @@ equip_buff_list = [
     { "id": 355, "name": "Storming Sea - Confession", "icon": "storming_sea", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["patk_mod", "matk_mod"], "values": [[8, 8]], "pvp_values": [[4, 4]] },
     { "id": 356, "name": "Storming Sea - Rest", "icon": "storming_sea", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["pdef", "mdef"], "values": [[20, 20]], "pvp_values": [[8, 8]] },
     { "id": 363, "name": "Verdict", "icon": "verdict", "category": "general", "mode": "mult", "options": ["Half/New Moon", "Full Moon"], "hidden": [0, 1, 0, 1], "stats": ["brave_mod", "specificbrave_mod", "strength_mod", "specificstrength_mod"], "values": [[10, 10, 0, 0], [10, 10, 10, 10]], "pvp_values": [[7.5, 7.5, 0, 0], [7.5, 7.5, 7.5, 7.5]] },
+    { "id": 694, "name": "Fog of Eternity", "icon": "fog_of_eternity", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["matk_mod"], "values": [[18]], "pvp_values": [[9]] },
     { "id": 641, "name": "Power Stone", "icon": "power_stone", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["patk_mod"], "values": [[10]] },
 
     { "id": 650, "name": "Logical Choice", "icon": "logical_choice", "category": "general", "mode": "mult", "options": ["Vower", "Other party members"], "stats": ["specialdmg_mod"], "values": [[15, 12]], "pvp_values": [[7.5, 6]] },
@@ -284,7 +285,7 @@ equip_buff_list = [
     { "id": 388, "name": "Awakened Will: Sacred Templar - El's Judgment", "category": "class", "class": ["genesis"], "icon": "awakened_will_sacred_templar", "mode": "mult", "options": ["Basic", "Fate"], "stats": ["alldmg_mod"], "values": [[8,10]], "pvp_values": [[4,5]] },
     { "id": 389, "name": "Oracle - El's Resonance", "category": "class", "class": ["genesis"], "icon": "oracle", "mode": "mult", "options": ["Basic"], "stats": ["dmg_mod"], "values": [[20]], "pvp_values": [[10]] },
     { "id": 390, "name": "Oracle - After El's Resonance", "category": "class", "class": ["genesis"], "icon": "oracle", "mode": ["mult", "mult_red"], "options": ["Basic"], "stats": ["matk_mod", "mpr_mod"], "values": [[20,10]], "pvp_values": [[10,10]] },
-    { "id": 597, "name": "[Mod] Retribution", "icon": "retribution", "category": "class", "class": ["genesis"], "mode": "mult_red", "options": ["Defense Ignore"], "stats": ["mdefignore"], "values": [[70]], "pvp_values": [[50]] },
+    { "id": 597, "name": "[Mod] Retribution", "icon": "retribution", "category": "class", "class": ["genesis"], "mode": "mult_red", "options": ["Defense Ignore"], "stats": ["mdefignore"], "values": [[50]], "pvp_values": [[20]] },
 
     //aisha
     //aether sage
@@ -655,7 +656,7 @@ equip_buff_list = [
     { "id": 504, "name": "Awakened Will: Punky Poppet", "icon": "awakened_will_punky_poppet", "category": "class", "class": ["twins_picaro"], "mode": "mult", "options": ["Toy Friend Skill"], "stats": ["dmg_mod"], "values": [[20]], "pvp_values": [[10]] },
     { "id": 505, "name": "Just Having Fun", "icon": "just_having_fun", "category": "class", "class": ["twins_picaro"], "mode": "mult", "options": ["Graffiti and Missile"], "stats": ["dmg_mod"], "values": [[20]], "pvp_values": [[10]] },
     { "id": 507, "name": "Rawr", "icon": "rawr", "category": "class", "class": ["twins_picaro"], "mode": "mult", "options": ["1 Enemy", "2 Enemies", "3 Enemies", "4 Enemies", "5 Enemies"], "stats": ["matk_mod"], "values": [[20], [16], [12], [8], [7]], "pvp_values": [[10], [8], [6], [4], [2]] },
-    { "id": 616, "name": "Cour de Monde/I'm Fine", "icon": ["cour_de_monde", "i_m_fine", "i_m_fine"], "category": "class", "class": ["twins_picaro"], "mode": "mult_red", "options": ["Cour de Monde", "I'm Fine", "[Mod] I'm Fine"], "stats": ["mdefignore"], "values": [[60], [70], [60]], "pvp_values": [[20], [20], [20]] },
+    { "id": 616, "name": "Cour de Monde/I'm Fine", "icon": ["cour_de_monde", "i_m_fine", "i_m_fine"], "category": "class", "class": ["twins_picaro"], "mode": "mult_red", "options": ["Cour de Monde", "I'm Fine", "[Mod] I'm Fine"], "stats": ["mdefignore"], "values": [[60], [30], [60]], "pvp_values": [[20], [20], [20]] },
 
     //noah
     { "id": 337, "name": "Awakening", "icon": ["new_moon", "half_moon", "full_moon", "new_moon", "half_moon", "full_moon"], "category": "class", "class": ["noah", "liberator", "celestia", "nyx_pieta"], "mode": ["add_u", "add", "mult", "mult", "mult", "mult", "mult"], "options": ["New Moon", "Half Moon", "Full Moon"], "stats": ["awk_dmg_mod", "critdmg", "as", "ms", "js", "mpattack", "mpattacked"], "values": [[30,10,0,0,0,0,0], [30,0,10,10,10,0,0], [30,0,0,0,0,10,10]], "pvp_values": [[30,4,0,0,0,0,0], [30,0,4,4,4,0,0], [30,0,0,0,0,10,10]] },
@@ -694,7 +695,7 @@ equip_buff_list = [
     { "id": 567, "name": "Polar Night", "icon": "polar_night", "category": "class", "class": ["morpheus"], "mode": "mult", "options": ["5 Stacks", "4 Stacks", "3 Stacks", "2 Stacks", "1 Stack"], "stats": ["dmg_mod"], "values": [[15], [12], [9], [6], [3]], "pvp_values": [[7.5], [6], [4.5], [3], [1.5]] },
     { "id": 568, "name": "Dream Walker's Record", "icon": "dream_walkers_record", "category": "class", "class": ["morpheus"], "mode": "mult", "options": ["10 Stacks", "9 Stacks", "8 Stacks", "7 Stacks", "6 Stack", "5 Stacks", "4 Stacks", "3 Stacks", "2 Stacks", "1 Stack"], "hidden": [0, 0, 1], "stats": ["command_mod", "flex_mod", "specificflex_mod"], "values": [[20, 20, 20], [18, 18, 18], [16, 16, 16], [14, 14, 14], [12, 12, 12], [10, 10, 10], [8, 8, 8], [6, 6, 6], [4, 4, 4], [2, 2, 2]], "pvp_values": [[10, 10, 10], [9, 9, 9], [8, 8, 8], [7, 7, 7], [6, 6, 6], [5,5,5], [4,4,4], [3,3,3], [2,2,2], [1,1,1]] },
     { "id": 569, "name": "Phantasm", "icon": "phantasm", "category": "class", "class": ["morpheus"], "mode": ["mult", "add"], "options": ["Basic"], "stats": ["matk_mod", "bossdmg"], "values": [[10,15]], "pvp_values": [[5,7.5]] },
-    { "id": 617, "name": "Lullaby of Cloudy Night", "icon": "lullaby_of_cloudy_night", "category": "class", "class": ["morpheus"], "mode": "mult_red", "options": ["Defense Ignore"], "stats": ["mdefignore"], "values": [[60]], "pvp_values": [[24]] },
+    { "id": 617, "name": "Lullaby of Cloudy Night", "icon": "lullaby_of_cloudy_night", "category": "class", "class": ["morpheus"], "mode": "mult_red", "options": ["Defense Ignore"], "stats": ["mdefignore"], "values": [[40]], "pvp_values": [[24]] },
     //lithia
     { "id": 631, "name": "Gemstones", "icon": "gemstones", "category": "class", "class": ["lithia", "gembliss", "achlys", "mischief"], "mode": "mult_red", "options": ["5 Gems", "4 Gems", "3 Gems", "2 Gems", "1 Gem"], "stats": ["pdef%", "mdef%"], "values": [[10, 10], [8, 8], [6, 6], [4, 4], [2, 2]] },
     //gembliss
@@ -706,7 +707,7 @@ equip_buff_list = [
     //{ "id": 637, "name": "Obelisk", "icon": "obelisk", "category": "class", "class": ["gembliss"], "mode": "mult", "options": ["Basic"], "stats": ["specialdmg_mod"], "values": [[15]], "pvp_values": [[7.5]] },
     { "id": 638, "name": "Guard Stone", "icon": "guard_stone", "category": "class", "class": ["gembliss"], "mode": "mult_red", "options": ["Basic"], "stats": ["red"], "values": [[20]], "pvp_values": [[10]] },
     { "id": 639, "name": "Destructive Pickaxe", "icon": "destructive_pickaxe", "category": "class", "class": ["gembliss"], "mode": "mult", "options": ["Basic"], "stats": ["command_mod", "flex_mod", "specificflex_mod"], "hidden": [0, 0, 1], "values": [[20,20,20]], "pvp_values": [[10,10,10]] },
-    { "id": 640, "name": "Mighty Mining/Strain", "icon": "mighty_mining", "category": "class", "class": ["gembliss"], "mode": "mult_red", "options": ["Defense Ignore"], "stats": ["pdefignore"], "values": [[60]], "pvp_values": [[20]] },
+    { "id": 640, "name": "Mighty Mining/Strain", "icon": "mighty_mining", "category": "class", "class": ["gembliss"], "mode": "mult_red", "options": ["Defense Ignore"], "stats": ["pdefignore"], "values": [[40]], "pvp_values": [[20]] },
     //avarice
     { "id": 651, "name": "Logical Choice", "icon": "logical_choice", "class": ["avarice"], "category": "class", "mode": "mult", "options": ["Basic"], "stats": ["specialdmg_mod"], "values": [[20]], "pvp_values": [[10]] },
     { "id": 655, "name ": "Understanding And Combination", "icon": "understanding_and_combination", "class": ["avarice"], "category": "class", "mode": ["mult", "mult", "add"], "options": ["Basic"], "stats": ["pdef","mdef",  "bossred"], "values": [[15,15,10]], "pvp_values": [[7.5,7.5,0]] },
@@ -765,13 +766,14 @@ equip_buff_list = [
     { "id": 409, "name": "Awakened Will: Code Failess", "category": "debuff", "icon": "awakened_will_code_failess", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefignore", "awk_dmg_mod"], "values": [[10, 12]], "pvp_values": [[10, 4.8]] },
     { "id": 660, "name": "Cheat Code: Destruction", "category": "debuff", "icon": "cheat_code_destruction", "mode": "mult", "options": [">50%", "<50%"], "stats": ["awk_dmg_mod"], "values": [[10], [20]], "pvp_values": [[5], [10]] },
     { "id": 661, "name": "Electronic Fall", "category": "debuff", "icon": "electronic_fall", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefreduction"], "values": [[20]], "pvp_values": [[10]] },
+    { "id": 695, "name": "Extreme Virtual", "icon": "extreme_virtual", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[12]], "pvp_values": [[6]] },
     // { "id": 224, "name": "Atomic Shield", "icon": "atomic_shield", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["dmg_mod"], "values": [[20]] },
     { "id": 310, "name": "Pandemonium", "icon": "pandemonium", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["dmg_mod"], "values": [[20]], "pvp_values": [[10]] },
     { "id": 260, "name": "Heavy Field", "icon": "heavy_field", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[20]] },
     { "id": 313, "name": "Guardian Force", "icon": "guardian_force", "category": "debuff", "mode": "mult_red", "options": ["3 Stacks", "2 Stacks", "1 Stack"], "stats": ["pdefreduction", "mdefreduction"], "values": [[15, 15], [10, 10], [5, 5]] },
     { "id": 225, "name": "Suppression", "icon": ["suppression", "suppression_energy", "suppression_specter", "suppression_pummel"], "category": "debuff", "mode": "mult_red", "options": ["Apsara", "Devi", "Shakti", "Surya"], "stats": ["pdefreduction", "mdefreduction"], "values": [[35, 35], [35, 35], [35, 35], [35, 35]] },
     //{ "id": 226, "name": "Fire Lotus", "icon": "fire_lotus", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[20]] },
-    { "id": 227, "name": "[Force] Dragon Stance 3: Eight Trigram Palm", "icon": "eight_trigram_palm", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[10]] },
+    //{ "id": 227, "name": "[Force] Dragon Stance 3: Eight Trigram Palm", "icon": "eight_trigram_palm", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[10]] },
     { "id": 228, "name": "Chi Release", "icon": "chi_release", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefreduction"], "values": [[20]], "pvp_values": [[10]] },
     { "id": 433, "name": "Dance of the Butterfly", "icon": "dance_of_the_butterfly", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[5]] },
     { "id": 242, "name": "Specter Walk", "category": "debuff", "icon": "specter_walk", "mode": "mult_red", "options": ["Killing Blow 2", "No Trait"], "stats": ["pdefreduction"], "values": [[13], [10]], "values": [[13], [10]] },
@@ -796,6 +798,7 @@ equip_buff_list = [
     { "id": 317, "name": "Frenzy", "icon": "frenzy", "category": "class", "class": ["black_massacre"], "mode": "add", "options": ["Basic"], "stats": ["critdmg"], "values": [[10]] },
     { "id": 277, "name": "Swift Assassin", "icon": "swift_assassin", "category": "debuff", "mode": "set", "options": ["Basic"], "stats": ["crit"], "values": [[100]] },
     { "id": 436, "name": "Mortal Fear", "icon": "mortal_fear", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[20]] }, 
+    { "id": 693, "name": "Land of Death", "icon": "supreme_punishment", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[15]] },
     { "id": 473, "name": "Shadow", "icon": "shadow", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefreduction"], "values": [[31]], "pvp_values": [[15.5]] },
     { "id": 430, "name": "[Force] Altar of Evil", "icon": "altar_of_evil", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[20]] },
     { "id": 467, "name": "Infernal Hands", "icon": "infernal_hands", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
@@ -813,19 +816,21 @@ equip_buff_list = [
     { "id": 472, "name": "Milky Way", "icon": "milky_way", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[30, 30]], "pvp_values": [[15, 15]] },
     { "id": 243, "name": "Nisha is Pocket", "icon": "nisha_is_pocket", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[30]] },
     { "id": 506, "name": "Bibi...!", "icon": "bibi", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction"], "values": [[20]], "pvp_values": [[10]] },
+    { "id": 696, "name": "Twitter Whistle", "icon": "twitter_whistle", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[12]], "pvp_values": [[6]] },
     { "id": 340, "name": "New Moon Awakening - Debuff", "icon": "new_moon", "category": "debuff", "mode": "mult_red", "options": ["10 Stacks", "9 Stacks", "8 Stacks", "7 Stacks", "6 Stacks", "5 Stacks", "4 Stacks", "3 Stacks", "2 Stacks", "1 Stack"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10], [9, 9], [8, 8], [7, 7], [6, 6], [5, 5], [4, 4], [3, 3], [2, 2], [1, 1]] },
     { "id": 343, "name": "Mirage", "icon": "mirage", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["pdefreduction"], "values": [[15]] },
     { "id": 351, "name": "Blue Nebula", "icon": "nebula", "category": "debuff", "mode": "mult_debuff", "options": ["Basic"], "stats": ["critdmg"], "values": [[12]] },
     { "id": 352, "name": "Purple Nebula", "icon": "nebula", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefreduction"], "values": [[12]], "pvp_values": [[12]] },
     { "id": 354, "name": "Beyond", "icon": "beyond", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefreduction"], "values": [[10]] },
-    { "id": 366, "name": "Moon Shard", "icon": "moon_shard", "category": "debuff", "mode": "mult_red", "options": ["Base/Half Moon", "New Moon"], "stats": ["pdefreduction", "mdefreduction"], "values": [[15, 15], [20, 20]] },
+    { "id": 366, "name": "Moon Shard", "icon": "moon_shard", "category": "debuff", "mode": "mult_red", "options": ["Base/Half Moon", "Full Moon"], "stats": ["pdefreduction", "mdefreduction"], "values": [[15, 15], [20, 20]] },
     //{ "id": 367, "name": "White Dwarf", "icon": "white_dwarf", "category": "debuff", "mode": "mult_debuff", "options": ["Base/Half Moon", "New Moon"], "stats": ["critdmg"], "values": [[6], [12]] },
-    { "id": 368, "name": "Extinction", "icon": "extinction", "category": "debuff", "mode": "mult", "options": ["Base/Half Moon", "New Moon"], "stats": ["awk_dmg_mod"], "values": [[10], [20]] },
+    { "id": 368, "name": "Extinction", "icon": "extinction", "category": "debuff", "mode": "mult", "options": ["Base/Half Moon", "Full Moon"], "stats": ["awk_dmg_mod"], "values": [[10], [14]], "pvp_values": [[5], [7]] },
     { "id": 434, "name": "Unfamiliar Dawn", "icon": "unfamiliar_dawn", "category": "debuff", "mode": "mult_debuff", "options": ["3 Stacks", "2 Stacks", "1 Stack"], "stats": ["critdmg"], "values": [[15], [10], [5]], "pvp_values": [[7.5], [5], [2.5]] },
     { "id": 672, "name": "Horizon", "icon": "horizon", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 674, "name": "Persistence", "icon": "persistence", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 677, "name": "Fascinating Development", "icon": "fascinating_development", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefreduction"], "values": [[20]] },
     { "id": 678, "name": "King le Pix", "icon": "king_le_pix", "category": "debuff", "mode": "mult_debuff", "options": ["2 Stacks", "1 Stack"], "stats": ["critdmg"], "values": [[20], [12.5]] },
+    
     //items
     { "id": 532, "name": "Flos Magica - Rose Petal", "icon": "order_of_the_assassin", "category": "item", "mode": "mult", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10]] },
     { "id": 533, "name": "Dreaming Automata - Gear of Fate", "icon": "order_of_the_assassin", "category": "item", "mode": "mult", "options": ["Basic"], "stats": ["dmg_mod"], "values": [[5]] },
@@ -837,10 +842,10 @@ equip_buff_list = [
     { "id": 628, "name": "Reaper", "icon": "reaper", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 629, "name": "Festival!", "icon": "festival", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10]] },
     { "id": 642, "name": "Attack of Steel Machines", "icon": "attack_of_steel_machines", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[48, 48]] },
-    //693
+    //694
 ]
 
-equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 284, 328, 367, 576, 637]
+equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 284, 328, 367, 576, 227, 637]
 
 equip_buff_list_categories = {
     "general": "All",
