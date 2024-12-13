@@ -1286,6 +1286,20 @@ accs_list_stat = [
         "manual": false
     },
     {
+        "long_name": "Physical Defense Ignore (Trait)",
+        "short_name": "pdefignoretrait",
+        "type": "percent",
+        "regular": false,
+        "manual": false
+    },
+    {
+        "long_name": "Magical Defense Ignore (Trait)",
+        "short_name": "mdefignoretrait",
+        "type": "percent",
+        "regular": false,
+        "manual": false
+    },
+    {
         "long_name": "Master Physical Defense Reduction",
         "short_name": "masterpdefreduction",
         "type": "percent",
@@ -2965,6 +2979,8 @@ accs_list_stat_transform = {
         { "stat": "mpattacked", "change": "mult", "mods": ["mpattacked_m"] },
         { "stat": "crit_r_m", "change": "add", "mods": [100] },
         { "stat": "maxi_r_m", "change": "add", "mods": [100] },
+        { "stat": "pdefignore", "change": "mult_red", "mods": ["pdefignoretrait"] },
+        { "stat": "mdefignore", "change": "mult_red", "mods": ["mdefignoretrait"] },
     ],
 
     //mult
