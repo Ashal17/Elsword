@@ -168,7 +168,7 @@ equip_buff_list = [
     { "id": 50, "name": "Stacking Gloves", "icon": "bravestack", "category": "item_auto", "mode": "stacking", "options": ["5 Stacks", "4 Stacks", "3 Stacks", "2 Stacks", "1 Stack"], "stats": ["mdef"], "values": [[5], [4], [3], [2], [1]], "requirement": { "type": "stat", "stats": ["flexstack", "tenastack", "strengthstack", "bravestack"] } },
     {"id": 400, "name": "Tamakhan's Seal - Damage Reduction", "icon": "party_red", "category": "item", "mode": "mult", "options": ["Basic"], "stats": ["red"], "values": [[5]] },
 
-    { "id": 667, "name": "Exascale - Compute", "icon": "exascale_compute", "category": "item_auto", "mode": "mult", "options": ["Logic 20", "Logic 10", "Reset"], "stats": ["patk_mod", "matk_mod", "master_mod", "hyper_mod"], "values": [[20, 20, 0, 0], [10, 10, 0, 0], [0, 0, 500, 500]] },
+    { "id": 667, "name": "Exascale - Compute", "icon": "exascale_compute", "category": "item_auto", "mode": "mult", "options": ["Logic 20", "Logic 15", "Logic 10", "Reset"], "stats": ["patk_mod", "matk_mod", "master_mod", "hyper_mod"], "values": [[20, 20, 0, 0], [15, 15, 0, 0], [10, 10, 0, 0], [0, 0, 500, 500]] },
     { "id": 668, "name": "Exascale - Cycle", "icon": "exascale_cycle", "category": "item_auto", "mode": ["add", "mult", "add_u", "mult_red"], "options": ["Flow", "Resist"], "stats": ["cdrc", "alldmg_mod"], "values": [[8, 0], [8, 16]] },
     { "id": 669, "name": "Exascale - Restore", "icon": "exascale_restore", "category": "item_auto", "mode": "mult_red", "options": ["Repair"], "stats": ["red"], "values": [[12]] },
 
