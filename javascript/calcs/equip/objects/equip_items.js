@@ -945,7 +945,7 @@ accs_list_items = {
         { "id": 60, "name": "Sirena's Authority", "set_id": 269, "icon": "sirena_authority", "char_icon": 0, "required_lvl": 0, "fixed": ["pdef", 30, "mdef", 30, "as", 1], "random": ["acc1"] },
         { "id": 77, "name": "Crushing Power", "set_id": 0, "icon": "crushing_power", "char_icon": 0, "required_lvl": 99, "fixed": ["adapt", 1, "hpflat", 2, "ms", 2] },
         { "id": 52, "name": "Mysterious El Lord Wings", "set_id": 266, "icon": "mysterious_el_lord_wings", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 1.5, "ms", 2, "js", 2, "5% chance to activate Random Missions", 0], "pvp_fixed": ["crit", 1.5, "ms", 2, "js", 2] },
-
+        { "id": 79, "name": "[ElsRift] Code of Cooling Knowledge", "set_id": 0, "icon": "code_of_cooling_knowledge", "char_icon": 0, "required_lvl": 0, "fixed": ["adapt", 1, "dmg50+", 10, "dmg50", 10] },
 
     ],
 
