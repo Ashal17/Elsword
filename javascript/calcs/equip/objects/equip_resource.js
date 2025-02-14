@@ -35,7 +35,18 @@ accs_list_slot = [
     "artifact_armor",
     "artifact_neck",
     "artifact_ring1",
-    "artifact_ring2"
+    "artifact_ring2",
+    "support_ib",
+    "facetop_ib",
+    "facemid_ib",
+    "facebot_ib",
+    "faceear_ib",
+    "topacc_ib",
+    "botacc_ib",
+    "arm_ib",
+    "neck_ib",
+    "ring_ib",
+    "wepacc_ib"
 
 ]
 
@@ -787,7 +798,183 @@ accs_list_slot_vars = {
         "other": 0,
         "img": 0,
         "name": "Artifact Ring"
-    }
+    },
+
+    "wepacc_ib": {
+        "url": 38,
+        "random": 0,
+        "socket": 0,
+        "socket1": 0,
+        "socket2": 0,
+        "socket3": 0,
+        "enhancement": 0,
+        "reforge": 0,
+        "imprint": 0,
+        "growth": 0,
+        "other": 0,
+        "img": 0,
+        "name": "Weapon Accessory IB",
+    },
+
+    "support_ib": {
+        "url": 37,
+        "random": 0,
+        "socket": 0,
+        "socket1": 0,
+        "socket2": 0,
+        "socket3": 0,
+        "enhancement": 0,
+        "reforge": 0,
+        "imprint": 0,
+        "growth": 0,
+        "other": 0,
+        "img": 0,
+        "name": "Support Unit IB",
+    },
+
+    "facetop_ib": {
+        "url": 37,
+        "random": 0,
+        "socket": 0,
+        "socket1": 0,
+        "socket2": 0,
+        "socket3": 0,
+        "enhancement": 0,
+        "reforge": 0,
+        "imprint": 0,
+        "growth": 0,
+        "other": 0,
+        "img": 0,
+        "name": "Face - Top IB"
+    },
+
+    "facemid_ib": {
+        "url": 37,
+        "random": 0,
+        "socket": 0,
+        "socket1": 0,
+        "socket2": 0,
+        "socket3": 0,
+        "enhancement": 0,
+        "reforge": 0,
+        "imprint": 0,
+        "growth": 0,
+        "other": 0,
+        "img": 0,
+        "name": "Face - Middle IB"
+    },
+
+    "facebot_ib": {
+        "url": 37,
+        "random": 0,
+        "socket": 0,
+        "socket1": 0,
+        "socket2": 0,
+        "socket3": 0,
+        "enhancement": 0,
+        "reforge": 0,
+        "imprint": 0,
+        "growth": 0,
+        "other": 0,
+        "img": 0,
+        "name": "Face - Bottom IB"
+    },
+
+    "faceear_ib": {
+        "url": 37,
+        "random": 0,
+        "socket": 0,
+        "socket1": 0,
+        "socket2": 0,
+        "socket3": 0,
+        "enhancement": 0,
+        "reforge": 0,
+        "imprint": 0,
+        "growth": 0,
+        "other": 0,
+        "img": 0,
+        "name": "Face - Earring IB"
+    },
+
+    "topacc_ib": {
+        "url": 37,
+        "random": 0,
+        "socket": 0,
+        "socket1": 0,
+        "socket2": 0,
+        "socket3": 0,
+        "enhancement": 0,
+        "reforge": 0,
+        "imprint": 0,
+        "growth": 0,
+        "other": 0,
+        "img": 0,
+        "name": "Top Accessory IB"
+    },
+
+    "botacc_ib": {
+        "url": 37,
+        "random": 0,
+        "socket": 0,
+        "socket1": 0,
+        "socket2": 0,
+        "socket3": 0,
+        "enhancement": 0,
+        "reforge": 0,
+        "imprint": 0,
+        "growth": 0,
+        "other": 0,
+        "img": 0,
+        "name": "Bottom Accessory IB"
+    },
+
+    "arm_ib": {
+        "url": 37,
+        "random": 0,
+        "socket": 0,
+        "socket1": 0,
+        "socket2": 0,
+        "socket3": 0,
+        "enhancement": 0,
+        "reforge": 0,
+        "imprint": 0,
+        "growth": 0,
+        "other": 0,
+        "img": 0,
+        "name": "Arm IB"
+    },
+
+    "neck_ib": {
+        "url": 37,
+        "random": 0,
+        "socket": 0,
+        "socket1": 0,
+        "socket2": 0,
+        "socket3": 0,
+        "enhancement": 0,
+        "reforge": 0,
+        "imprint": 0,
+        "growth": 0,
+        "other": 0,
+        "img": 0,
+        "name": "Necklace IB"
+    },
+
+    "ring_ib": {
+        "url": 37,
+        "random": 0,
+        "socket": 0,
+        "socket1": 0,
+        "socket2": 0,
+        "socket3": 0,
+        "enhancement": 0,
+        "reforge": 0,
+        "imprint": 0,
+        "growth": 0,
+        "other": 0,
+        "img": 0,
+        "name": "Ring IB"
+    },
 
 }
 
