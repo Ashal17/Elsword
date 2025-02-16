@@ -690,7 +690,8 @@ accs_list_items = {
     ],
 
     "wepacc_ib": [
-        { "id": 0, "name": "Weapon Accessory IB", "set_id": 0, "icon": "blank", "char_icon": 0, "required_lvl": 0, "fixed": [] }
+        { "id": 0, "name": "Weapon Accessory IB", "set_id": 0, "icon": "blank", "char_icon": 0, "required_lvl": 0, "fixed": [] },
+        { "id": 1, "name": "Elrios Guardian Knights Weapon Accessory", "set_id":271, "icon":"elrios_guardian_knights_weapon_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "adapt", 2, "maxi", 2] },
     ],
 
     "support": [
@@ -725,7 +726,8 @@ accs_list_items = {
         { "id": 13, "name": "Ocean Pearl: Proof of Justice", "set_id": 58, "icon": "ocean_pearl_proof_of_justice", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 40, "matk", 40, "crit", 2, "maxi", 3] },
         { "id": 14, "name": "Flos Magica Support Unit", "set_id": 60, "icon": "flos_magica_support_unit", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 20, "matk", 20, "as", 4] },
         { "id": 15, "name": "Nox Venator: Evil Spirit Prison", "set_id": 62, "icon": "nox_venator_evil_spirit_prison", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "ms", 4] },
-        { "id": 16, "name": "Erebus Elegy Support Unit Accessory", "set_id": 70, "icon": "erebus_elegy_support_unit_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 2, "maxi", 1] }
+        { "id": 16, "name": "Erebus Elegy Support Unit Accessory", "set_id": 70, "icon": "erebus_elegy_support_unit_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 2, "maxi", 1] },
+        { "id": 17, "name": "Elrios Guardian Knights Support Unit Accessory", "set_id":271, "icon":"elrios_guardian_knights_support_unit_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "crit", 2, "maxi", 2] },
     ],
 
 
@@ -770,7 +772,8 @@ accs_list_items = {
         { "id": 18, "name": "Sacred Knight Accessory Face Top", "set_id": 59, "icon": "sacred_knight_accessory_face_top", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "as", 4] },
         { "id": 19, "name": "Ascending Dragon Face Top Accessory", "set_id": 66, "icon": "ascending_dragon_face_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "ms", 2] },
         { "id": 20, "name": "Abyssal Existence Face Top Accessory", "set_id": 68, "icon": "abyssal_existence_face_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "maxi", 2] },
-        { "id": 21, "name": "Erebus Elegy Face Top Accessory", "set_id": 70, "icon": "erebus_elegy_face_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "maxi", 2] }
+        { "id": 21, "name": "Erebus Elegy Face Top Accessory", "set_id": 70, "icon": "erebus_elegy_face_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "maxi", 2] },
+        { "id": 22, "name": "Elrios Guardian Knights Face Top Accessory", "set_id":271, "icon":"elrios_guardian_knights_face_top_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "crit", 3] },
 
     ],
 
@@ -829,6 +832,7 @@ accs_list_items = {
         { "id": 31, "name": "Bloody Nightmare: Blood Tears", "set_id": 64, "icon": "bloody_nightmare_accessory_facemiddle", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "as", 4] },
         { "id": 32, "name": "Ascending Dragon Face Middle Accessory", "set_id": 66, "icon": "ascending_dragon_face_middle_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "alldmg", 2, "mpr", 5] },
         { "id": 33, "name": "Vita Fontana Face Middle Accessory", "set_id": 69, "icon": "vita_fontana_face_middle_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "adapt", 1, "mpr", 5] },
+        { "id": 34, "name": "Elrios Guardian Knights Face Middle Accessory", "set_id":271, "icon":"elrios_guardian_knights_face_middle_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "crit", 3] },
 
     ],
 
@@ -852,7 +856,8 @@ accs_list_items = {
         { "id": 6, "name": "Agent Nous: Landing Operation Gas Mask", "set_id": 56, "icon": "agent_nous_face_accessory_bottom", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "as", 3, "mpattack", 3, "mpattacked", 3] },
         { "id": 7, "name": "Dreaming Automata Face Bottom", "set_id": 61, "icon": "dreaming_automata_face_bottom", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "as", 4] },
         { "id": 8, "name": "Flos Magica Face Bottom", "set_id": 60, "icon": "flos_magica_face_bottom", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "crit", 3, "critdmg", 1] },
-        { "id": 9, "name": "Erebus Elegy Face Bottom Accessory", "set_id": 70, "icon": "erebus_elegy_face_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "mpr", 5] }
+        { "id": 9, "name": "Erebus Elegy Face Bottom Accessory", "set_id": 70, "icon": "erebus_elegy_face_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "mpr", 5] },
+        { "id": 10, "name": "Elrios Guardian Knights Face Bottom Accessory", "set_id":271, "icon":"elrios_guardian_knights_face_bottom_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "crit", 3] }, 
     ],
 
     "faceear": [
@@ -892,6 +897,7 @@ accs_list_items = {
         { "id": 13, "name": "Tourbillon Assemble Earring Accessory", "set_id": 65, "icon": "tourbillon_assemble_earring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "as", 2, "cdr", 5] },
         { "id": 14, "name": "Empire Reign Earring Accessory", "set_id": 67, "icon": "empire_reign_earring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "alldmg", 2] },
         { "id": 15, "name": "Abyssal Existence Earring Accessory", "set_id": 68, "icon": "abyssal_existence_earring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "critdmg", 1] },
+        { "id": 16, "name": "Elrios Guardian Knights Earring Accessory", "set_id":271, "icon":"elrios_guardian_knights_earring_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "crit", 2, "maxi", 2] },
 
     ],
 
@@ -980,6 +986,7 @@ accs_list_items = {
         { "id": 63, "name": "Ascending Dragon Top Accessory", "set_id": 66, "icon": "ascending_dragon_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "crit", 2, "alldmg", 2] },
         { "id": 64, "name": "Empire Reign Top Accessory", "set_id": 67, "icon": "empire_reign_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "as", 3] },
         { "id": 65, "name": "Vita Fontana Top Accessory", "set_id": 69, "icon": "vita_fontana_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "adapt", 1, "alldmg", 1] },
+        { "id": 66, "name": "Elrios Guardian Knights Top Accessory", "set_id":271, "icon":"elrios_guardian_knights_top_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "maxi", 3] },
 
     ],
 
@@ -1039,7 +1046,8 @@ accs_list_items = {
         { "id": 30, "name": "Tourbillon Assemble Bottom Accessory", "set_id": 65, "icon": "tourbillon_assemble_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 20, "matk", 20, "crit", 2, "as", 2] },
         { "id": 31, "name": "Empire Reign Bottom Accessory", "set_id": 67, "icon": "empire_reign_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "critdmg", 2] },
         { "id": 32, "name": "Vita Fontana Bottom Accessory", "set_id": 69, "icon": "vita_fontana_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "adapt", 1, "critdmg", 1] },
-        { "id": 33, "name": "Erebus Elegy Bottom Accessory", "set_id": 70, "icon": "erebus_elegy_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "alldmg", 1] }
+        { "id": 33, "name": "Erebus Elegy Bottom Accessory", "set_id": 70, "icon": "erebus_elegy_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "alldmg", 1] },
+        { "id": 34, "name": "Elrios Guardian Knights Bottom Accessory", "set_id":271, "icon":"elrios_guardian_knights_bottom_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "maxi", 3] },
     ],
 
     "arm": [
@@ -1077,6 +1085,7 @@ accs_list_items = {
         { "id": 15, "name": "Nox Venator: jet black feathers", "set_id": 62, "icon": "nox_venator_jet_black_feathers", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 40, "matk", 40, "crit", 4] },
         { "id": 16, "name": "Bloody Nightmare: Nightmare Ornament", "set_id": 64, "icon": "bloody_nightmare_accessory_arm", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "alldmg", 2] },
         { "id": 17, "name": "Abyssal Existence Arm Accessory", "set_id": 68, "icon": "abyssal_existence_arm_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "alldmg", 1] },
+        { "id": 18, "name": "Elrios Guardian Knights Arm Accessory", "set_id":271, "icon":"elrios_guardian_knights_arm_accessory", "char_icon":1, "required_lvl":0, "fixed":["patk", 25, "matk", 25, "as", 1, "maxi", 3] },
 
     ],
 
@@ -1103,6 +1112,7 @@ accs_list_items = {
         { "id": 3, "name": "Bloody Nightmare: Memories of Darkness", "set_id": 64, "icon": "bloody_nightmare_accessory_arm", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 40, "matk", 40, "adapt", 2, "alldmg", 2] },
         { "id": 4, "name": "Empire Reign Necklace Accessory", "set_id": 67, "icon": "empire_reign_necklace_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "adapt", 2, "critdmg", 2] },
         { "id": 5, "name": "Vita Fontana Necklace Accessory", "set_id": 69, "icon": "vita_fontana_necklace_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "adapt", 2, "aadmg", 2] },
+        { "id": 6, "name": "Elrios Guardian Knights Necklace Accessory", "set_id":271, "icon":"elrios_guardian_knights_necklace_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "adapt", 2, "crit", 2] }, 
 
     ],
 
@@ -1140,6 +1150,7 @@ accs_list_items = {
         { "id": 2, "name": "Tourbillon Assemble MAG Ring Accessory", "set_id": 65, "icon": "tourbillon_assemble_mag_ring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "matk%", 3, "mdefignore", 2] },
         { "id": 3, "name": "Abyssal Existence PHY Ring Accessory", "set_id": 68, "icon": "abyssal_existence_phy_ring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "patk%", 3, "acdmg", 2] },
         { "id": 4, "name": "Abyssal Existence MAG Ring Accessory", "set_id": 68, "icon": "abyssal_existence_mag_ring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "matk%", 3, "acdmg", 2] },
+        { "id": 5, "name": "Elrios Guardian Knights Ring Accessory", "set_id":271, "icon":"elrios_guardian_knights_ring_accessory", "char_icon":1, "required_lvl":0, "fixed":["patk", 25, "matk", 25, "alldmg", 1, "crit", 2] },    
 
     ],
 
@@ -1964,7 +1975,7 @@ accs_list_set = [
     { "id": 268, "name": "Master Piece", "pieces": 3, "bonus": [[2, "patk%", 3], [2, "matk%", 3], [2, "adapt", 1], [3, "maxmp", 20], [3, "aadmg", 3], [3, "adapt", 2]], "pvp_bonus": [[2, "patk%", 3], [2, "matk%", 3], [2, "adapt", 1], [3, "maxmp", 20], [3, "adapt", 2]] },
     { "id": 269, "name": "Sirena's Jewel", "pieces": 3, "bonus": [[3, "resdar", 350], [3, "mpattack", 15], [3, "mpattacked", 15]], "pvp_bonus": [[3, "resdar", 350]] },
     { "id": 270, "name": "Sharp Abyss", "pieces": 3, "bonus": [[2, "awkt", 10], [2, "bossdmg", 5], [2, "resall", 50], [3, "acdmg", 3], [3, "aadmg", 3]] },
-    { "id": 271, "name": "None", "pieces": 0, "bonus": [] },
+    { "id": 271, "name": "Elrios Guardian Knights Accessories", "pieces": 4, "bonus": [[3, "alldmg", 5], [3, "cdr", 5], [4, "adapt", 5], [4, "as", 10]] },
     { "id": 272, "name": "None", "pieces": 0, "bonus": [] },
     { "id": 273, "name": "None", "pieces": 0, "bonus": [] },
     { "id": 274, "name": "None", "pieces": 0, "bonus": [] },
