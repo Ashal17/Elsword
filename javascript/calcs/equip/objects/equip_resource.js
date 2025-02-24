@@ -764,6 +764,7 @@ accs_list_slot_vars = {
         "imgh": 64,
         "imgresize": 0,
         "name": "Weapon Accessory IB",
+        "img_backup": "wepacc"
     },
 
     "support_ib": {
@@ -785,6 +786,7 @@ accs_list_slot_vars = {
         "imgh": 64,
         "imgresize": 0,
         "name": "Support Unit IB",
+        "img_backup": "support"
     },
 
     "facetop_ib": {
@@ -805,7 +807,8 @@ accs_list_slot_vars = {
         "imgw": 64,
         "imgh": 64,
         "imgresize": 0,
-        "name": "Face - Top IB"
+        "name": "Face - Top IB",
+        "img_backup": "facetop"
     },
 
     "facemid_ib": {
@@ -826,7 +829,8 @@ accs_list_slot_vars = {
         "imgw": 64,
         "imgh": 64,
         "imgresize": 0,
-        "name": "Face - Middle IB"
+        "name": "Face - Middle IB",
+        "img_backup": "facemid"
     },
 
     "facebot_ib": {
@@ -847,7 +851,8 @@ accs_list_slot_vars = {
         "imgw": 64,
         "imgh": 64,
         "imgresize": 0,
-        "name": "Face - Bottom IB"
+        "name": "Face - Bottom IB",
+        "img_backup": "facebot"
     },
 
     "faceear_ib": {
@@ -868,7 +873,8 @@ accs_list_slot_vars = {
         "imgw": 64,
         "imgh": 64,
         "imgresize": 0,
-        "name": "Face - Earring IB"
+        "name": "Face - Earring IB",
+        "img_backup": "faceear"
     },
 
     "topacc_ib": {
@@ -889,7 +895,8 @@ accs_list_slot_vars = {
         "imgw": 64,
         "imgh": 64,
         "imgresize": 0,
-        "name": "Top Accessory IB"
+        "name": "Top Accessory IB",
+        "img_backup": "topacc"
     },
 
     "botacc_ib": {
@@ -910,7 +917,8 @@ accs_list_slot_vars = {
         "imgw": 64,
         "imgh": 64,
         "imgresize": 0,
-        "name": "Bottom Accessory IB"
+        "name": "Bottom Accessory IB",
+        "img_backup": "botacc"
     },
 
     "arm_ib": {
@@ -931,7 +939,8 @@ accs_list_slot_vars = {
         "imgw": 64,
         "imgh": 64,
         "imgresize": 0,
-        "name": "Arm IB"
+        "name": "Arm IB",
+        "img_backup": "arm"
     },
 
     "neck_ib": {
@@ -952,7 +961,8 @@ accs_list_slot_vars = {
         "imgw": 64,
         "imgh": 64,
         "imgresize": 0,
-        "name": "Necklace IB"
+        "name": "Necklace IB",
+        "img_backup": "neck"
     },
 
     "ring_ib": {
@@ -973,7 +983,8 @@ accs_list_slot_vars = {
         "imgw": 64,
         "imgh": 64,
         "imgresize": 0,
-        "name": "Ring IB"
+        "name": "Ring IB",
+        "img_backup": "ring1"
     },
 
 }
