@@ -467,6 +467,7 @@ equip_buff_list = [
 
     //elesis
     { "id": 130, "name": "Iron Body - Strong", "icon": "iron_body_strong", "category": "class", "class": ["elesis", "empire_sword", "flame_lord", "bloody_queen", "adrestia"], "mode": ["mult", "mult", "mult_red"], "options": ["Basic"], "stats": ["patk_mod", "matk_mod", "red"], "values": [[15, 15, 10]], "pvp_values": [[10, 10, 10]] },
+    { "id": 698, "name": "Gale", "icon": "awakening", "category": "class", "class": ["elesis", "empire_sword", "flame_lord", "bloody_queen", "adrestia"], "mode": "mult", "options": ["Basic"], "stats": ["as", "ms"], "values": [[10, 10]] },
     //empire sword
     //{ "id": 131, "name": "Knight's Destiny - Guardian's Sword", "icon": "knights_destiny", "category": "class", "class": ["empire_sword"], "mode": "mult", "options": ["Basic"], "stats": ["dmg_mod"], "values": [[10]] },
     { "id": 417, "name": "Initiate", "icon": "initiate", "category": "class", "class": ["empire_sword"], "mode": "mult", "options": ["Basic"], "stats": ["dmg_mod"], "values": [[20]], "pvp_values": [[8]] },
@@ -843,7 +844,7 @@ equip_buff_list = [
     { "id": 628, "name": "Reaper", "icon": "reaper", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 629, "name": "Festival!", "icon": "festival", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10]] },
     { "id": 642, "name": "Attack of Steel Machines", "icon": "attack_of_steel_machines", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[48, 48]] },
-    //698
+    //699
 ]
 
 equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 284, 328, 367, 576, 227, 637]
