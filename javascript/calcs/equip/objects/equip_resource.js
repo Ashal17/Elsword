@@ -2550,6 +2550,13 @@ accs_list_stat = [
         "manual": false
     },
     {
+        "long_name": "All Skill Cooldown Reset Chance",
+        "short_name": "cdrc_mod",
+        "type": "percent",
+        "regular": false,
+        "manual": false
+    },
+    {
         "long_name": "Command Attack Damage",
         "short_name": "command_mod",
         "type": "percent",
@@ -3205,6 +3212,10 @@ accs_list_stat_transform = {
         { "stat": "js", "change": "add", "mods": ["js_u"] },
         { "stat": "mpr", "change": "mult_red", "mods": ["mpr_mod"] },
         { "stat": "red", "change": "mult_red", "mods": ["red_m"] },
+        { "stat": "flexcdrc", "change": "add", "mods": ["cdrc_mod"] },
+        { "stat": "tenacdrc", "change": "add", "mods": ["cdrc_mod"] },
+        { "stat": "strengthcdrc", "change": "add", "mods": ["cdrc_mod"] },
+        { "stat": "bravecdrc", "change": "add", "mods": ["cdrc_mod"] },
         { "stat": "flexcdr", "change": "mult_red", "mods": ["cdr_mod"] },
         { "stat": "tenacdr", "change": "mult_red", "mods": ["cdr_mod"] },
         { "stat": "strengthcdr", "change": "mult_red", "mods": ["cdr_mod"] },
