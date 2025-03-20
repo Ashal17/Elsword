@@ -707,7 +707,7 @@ accs_list_items = {
         { "id": 24, "name": "Floating Betty", "set_id": 0, "icon": "floating_betty", "char_icon": 0, "required_lvl": 0, "fixed": ["adapt", 2, "When HP is 50% or lower, All Skill Damage +4%", 0], "buff_apply": [{ "id": 555, "option": 0 }] },
         { "id": 26, "name": "Machine Doll Head", "set_id": 0, "icon": "machine_doll_head", "char_icon": 0, "required_lvl": 99, "fixed": ["adapt", 2, "maxi", 10] },
         { "id": 16, "name": "El Turbine Prototype Ver. 0.1", "set_id": 0, "icon": "el_turbine_prototype", "char_icon": 0, "required_lvl": 0, "fixed": ["doubleatk", 4] },
-
+        { "id": 28, "name": "[ElsRift] Loaded Nono Mini EXP", "set_id": 0, "icon": "loaded_nono_mini_exp", "char_icon": 0, "required_lvl": 0, "fixed": ["maxi", 2, "critdmg", 3, "adapt", 5, "exp", 100] }
     ],
     "support_ib": [
         { "id": 0, "name": "Support Unit IB", "set_id": 0, "icon": "blank", "char_icon": 0, "required_lvl": 0, "fixed": [] },
