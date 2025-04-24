@@ -90,7 +90,7 @@ equip_buff_list = [
     //{ "id": 361, "name": "Nisha Power - Zumyu", "icon": "nisha_power", "category": "general", "mode": "add", "options": ["Basic"], "stats": ["bossdmg"], "values": [[10]] },
     { "id": 370, "name": "White Night", "icon": "white_night", "category": "general", "mode": "add", "options": ["Basic"], "stats": ["bossdmg"], "values": [[10]], "pvp_values": [[10]] },
     { "id": 353, "name": "Horary", "icon": "horary", "category": "general", "mode": ["mult", "mult_red"], "options": ["Collection of Light", "Judgment", "Culmination"], "stats": ["dmg_mod"], "values": [[18], [0], [18]], "pvp_values": [[9], [0], [9]] },
-    { "id": 355, "name": "Storming Sea - Confession", "icon": "storming_sea", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["patk_mod", "matk_mod"], "values": [[12, 12]], "pvp_values": [[4, 4]] },
+    { "id": 355, "name": "Storming Sea - Confession", "icon": "storming_sea", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["patk_mod", "matk_mod"], "values": [[12, 12]], "pvp_values": [[6, 6]] },
     { "id": 356, "name": "Storming Sea - Rest", "icon": "storming_sea", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["pdef", "mdef"], "values": [[20, 20]], "pvp_values": [[8, 8]] },
     { "id": 363, "name": "Verdict", "icon": "verdict", "category": "general", "mode": "mult", "options": ["Half/New Moon", "Full Moon"], "hidden": [0, 1, 0, 1], "stats": ["brave_mod", "specificbrave_mod", "strength_mod", "specificstrength_mod"], "values": [[10, 10, 0, 0], [10, 10, 10, 10]], "pvp_values": [[7.5, 7.5, 0, 0], [7.5, 7.5, 7.5, 7.5]] },
     { "id": 694, "name": "Fog of Eternity", "icon": "fog_of_eternity", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["matk_mod"], "values": [[25]], "pvp_values": [[12.5]] },
@@ -617,7 +617,7 @@ equip_buff_list = [
     { "id": 455, "name": "Apotheosis", "icon": "apotheosis", "category": "class", "class": ["richter"], "mode": ["add", "add", "mult_red"], "options": ["5 Stacks", "4 Stacks", "3 Stacks", "2 Stacks", "1 Stack"], "stats": ["resall_a", "bossdmg", "bossred"], "values": [[30 * 5, 2 * 5, 2 * 5], [30 * 4, 2 * 4, 2 * 4], [30 * 3, 2 * 3, 2 * 3], [30 * 2, 2 * 2, 2 * 2], [30 * 1, 2 * 1, 2 * 1]], "pvp_values": [[15 * 5, 2 * 5, 2 * 5], [15 * 4, 2 * 4, 2 * 4], [15 * 3, 2 * 3, 2 * 3], [15 * 2, 2 * 2, 2 * 2], [15 * 1, 2 * 1, 2 * 1]] },
     { "id": 613, "name": "Viert · Werfen Speer - Spear Throw", "icon": "viert_werfen_speer", "category": "class", "class": ["richter"], "mode": "mult_red", "options": ["Defense Ignore"], "stats": ["pdefignore"], "values": [[100]], "pvp_values": [[100]] },
     //  { "id": 198, "name": "Power", "icon": "disparate_force", "category": "class", "mode": ["mult_red", "mult_red", "mult", "mult", "mult", "mult", "mult", "mult", "mult", "mult", "mult", "mult", "mult"], "options": ["Cycle", "Creation"], "stats": ["mpr_mod", "cdr_mod", "crit", "maxi", "add", "red", "as", "ms", "js", "mpattack", "mpattacked", "awkc", "awkt"], "values": [[15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], "class": ["richter"] },
-    { "id": 285, "name": "The Justiciar", "category": "class", "class": ["richter"], "icon": "the_justiciar", "mode": ["mult"], "options": ["Awakening 3", "Awakening 2", "Awakening 1"], "stats": ["alldmg_mod"], "values": [[3*5], [2*5], [5]], "pvp_values": [[3*2.5], [2*2.5], [2.5]] },
+    { "id": 285, "name": "The Justiciar", "category": "class", "class": ["richter"], "icon": "the_justiciar", "mode": ["mult"], "options": ["Awakening 3", "Awakening 2", "Awakening 1"], "stats": ["dmg_mod"], "values": [[3*5], [2*5], [5]], "pvp_values": [[3*2.5], [2*2.5], [2.5]] },
     //bluhen
     { "id": 199, "name": "Awakened Will: Erbluhen Emotion", "icon": "awakened_will_erbluhen_emotion", "category": "class", "mode": "mult", "options": ["Basic"], "stats": ["awkc"], "values": [[30]], "class": ["bluhen"] },
     //{ "id": 249, "name": "Vertrauen Melodie", "icon": "vertrauen_melodie", "category": "class", "class": ["bluhen"], "mode": ["mult", "mult_red"], "options": ["Killing Blow 2", "No Trait"], "stats": ["matk_mod", "red"], "values": [[24, 24], [20, 20]], "pvp_values": [[12, 12], [10, 10]] },
@@ -865,7 +865,7 @@ equip_buff_list = [
     //714
 ]
 
-equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 284, 328, 367, 576, 227, 637, 531, 422, 435, 242, 361, 354]
+equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 284, 328, 367, 576, 227, 637, 531, 422, 435, 242, 361, 354, 270]
 
 equip_buff_list_categories = {
     "general": "All",
