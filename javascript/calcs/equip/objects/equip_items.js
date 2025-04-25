@@ -1112,7 +1112,7 @@ accs_list_items = {
         { "id": 3, "name": "Bloody Nightmare: Memories of Darkness", "set_id": 64, "icon": "bloody_nightmare_accessory_arm", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 40, "matk", 40, "adapt", 2, "alldmg", 2] },
         { "id": 4, "name": "Empire Reign Necklace Accessory", "set_id": 67, "icon": "empire_reign_necklace_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "adapt", 2, "critdmg", 2] },
         { "id": 5, "name": "Vita Fontana Necklace Accessory", "set_id": 69, "icon": "vita_fontana_necklace_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "adapt", 2, "aadmg", 2] },
-        { "id": 6, "name": "Elrios Guardian Knights Necklace Accessory", "set_id":271, "icon":"elrios_guardian_knights_necklace_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "adapt", 2, "crit", 2] }, 
+        { "id": 6, "name": "Elrios Guardian Knights Necklace Accessory", "set_id":271, "icon":"elrios_guardian_knights_necklace_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "adapt", 2, "as", 2] }, 
 
     ],
 
@@ -1150,7 +1150,7 @@ accs_list_items = {
         { "id": 2, "name": "Tourbillon Assemble MAG Ring Accessory", "set_id": 65, "icon": "tourbillon_assemble_mag_ring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "matk%", 3, "mdefignore", 2] },
         { "id": 3, "name": "Abyssal Existence PHY Ring Accessory", "set_id": 68, "icon": "abyssal_existence_phy_ring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "patk%", 3, "acdmg", 2] },
         { "id": 4, "name": "Abyssal Existence MAG Ring Accessory", "set_id": 68, "icon": "abyssal_existence_mag_ring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "matk%", 3, "acdmg", 2] },
-        { "id": 5, "name": "Elrios Guardian Knights Ring Accessory", "set_id":271, "icon":"elrios_guardian_knights_ring_accessory", "char_icon":1, "required_lvl":0, "fixed":["patk", 25, "matk", 25, "alldmg", 1, "crit", 2] },    
+        { "id": 5, "name": "Elrios Guardian Knights Ring Accessory", "set_id":271, "icon":"elrios_guardian_knights_ring_accessory", "char_icon":1, "required_lvl":0, "fixed":["patk", 25, "matk", 25, "alldmg", 2, "crit", 2] },    
 
     ],
 
