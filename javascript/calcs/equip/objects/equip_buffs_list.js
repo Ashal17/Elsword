@@ -847,7 +847,7 @@ equip_buff_list = [
     //699
 ]
 
-equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 284, 328, 367, 576, 227, 637]
+equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 328, 367, 576, 227, 637]
 
 equip_buff_list_categories = {
     "general": "All",
