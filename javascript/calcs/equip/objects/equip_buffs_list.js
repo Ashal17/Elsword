@@ -301,7 +301,8 @@ equip_buff_list = [
     { "id": 71, "name": "Shadow Body", "category": "class", "class": ["oz_sorcerer"], "icon": "shadow_body", "mode": ["mult", "mult", "mult", "mult"], "options": ["Basic"], "stats": ["matk_mod", "patk_mod", "mpattack", "mpattacked"], "values": [[27, -15, 13, 13]] },
     { "id": 72, "name": "Energy Discharge", "category": "class", "class": ["oz_sorcerer"], "icon": "energy_discharge", "mode": "add_u", "options": ["3 Bead", "2 Bead", "1 Bead"], "stats": ["maxmp"], "values": [[50], [30], [10]], "pvp_values": [[20], [12], [4]] },
     { "id": 73, "name": "Awakened Will: Void Princess", "category": "class", "class": ["oz_sorcerer"], "icon": "awakened_will_void_princess", "mode": "mult_red", "options": ["Basic"], "stats": ["cdr_mod", "mpr_mod"], "values": [[20, 20]] },
-    { "id": 663, "name": "Deathly Shadow", "category": "class", "class": ["oz_sorcerer"], "icon": "deathly_shadow", "mode": "mult_red", "options": ["Special/Active/Command"], "stats": ["pdefignorechance", "mdefignorechance"], "values": [[20,20]] },
+    { "id": 662, "name": "Deathly Shadow", "category": "class", "class": ["oz_sorcerer"], "icon": "deathly_shadow", "mode": "mult_red", "options": ["Special/Active/Command"], "stats": ["pdefignorechance", "mdefignorechance"], "values": [[20,20]] },
+    { "id": 715, "name": "Oz's Power", "category": "class", "class": ["oz_sorcerer"], "icon": "oz_power", "mode": "mult", "options": ["Basic"], "stats": ["specialdmg_mod"], "values": [[15,7.5]] },
 
     //metamorphy
     { "id": 74, "name": "Magical Makeup", "category": "class", "class": ["metamorphy"], "icon": "magical_makeup", "mode": ["mult", "mult", "mult_red", "mult", "add_u"], "options": ["Basic"], "stats": ["mpattack", "mpattacked", "red", "specialdmg_mod", "maxmp"], "values": [[50, 50, 20, 15, 50]], "pvp_values": [[20, 20, 20, 15, 50]] },
@@ -862,7 +863,7 @@ equip_buff_list = [
     { "id": 628, "name": "Reaper", "icon": "reaper", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 629, "name": "Festival!", "icon": "festival", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10]] },
     { "id": 642, "name": "Attack of Steel Machines", "icon": "attack_of_steel_machines", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[48, 48]] },
-    //714
+    //715
 ]
 
 equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 328, 367, 576, 227, 637, 531, 422, 435, 242, 361, 354, 270]
