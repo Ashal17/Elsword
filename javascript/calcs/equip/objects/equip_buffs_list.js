@@ -63,9 +63,9 @@ equip_buff_list = [
     //{ "id": 18, "name": "Blooming Flame", "icon": "blooming_flame", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["dmg_mod"], "values": [[15]] },
     { "id": 19, "name": "Force Field", "icon": "force_field", "category": "general", "mode": ["mult", "mult_red", "mult", "mult", "mult", "add"], "options": ["Basic", "Killing Blow 2", "Force", "Force - Killing Blow 2"], "stats": ["patk_mod", "red", "awkc", "critdmg"], "values": [[12, 12, 0,  0], [13.8, 13.8, 0,  0], [10, 0, 30,  10], [11.5, 0, 34.5,11.5]] },
     //{ "id": 20, "name": "Phantom Circle", "icon": "phantom_circle", "category": "general", "mode": "add", "options": ["Basic"], "stats": ["maxi"], "values": [[30]], "pvp_values": [[10]] },
-    { "id": 517, "name": "Stimpack", "icon": "stimpack", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["patk_mod", "matk_mod", "pdef", "mdef"], "values": [[10,10,-20,-20]] },
+    { "id": 517, "name": "Stimpack", "icon": "stimpack", "category": "general", "mode": "mult", "options": ["Basic", "Nocebo Effect"], "stats": ["patk_mod", "matk_mod", "pdef", "mdef"], "values": [[10,10,-20,-20], [12.5,12.5,-22.5,-22.5]], "pvp_values": [[5,5,-10,-10], [6.25,6.25,-12.5,-12.5]] },
     { "id": 518, "name": "PCA", "icon": "pca", "category": "general", "mode": "mult_red", "options": ["3 DMP", "Normal"], "stats": ["red"], "values": [[20, 14]], "pvp_values": [[10, 7]] },
-    { "id": 519, "name": "Detoxication", "icon": "detoxication", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["alldmg_mod"], "values": [[10]], "pvp_values": [[5]] },
+    { "id": 519, "name": "Detoxication", "icon": "detoxication", "category": "general", "mode": "mult", "options": ["Basic", "Nocebo Effect"], "stats": ["alldmg_mod"], "values": [[10], [12.5]], "pvp_values": [[5], [6.25]] },
     { "id": 520, "name": "Mass Examination", "icon": "mass_examination", "category": "general", "mode": ["add", "add", "add", "add", "mult", "mult"], "options": ["Stage 1", "Stage 2", "Stage 3", "Stage 4"], "stats": ["crit", "maxi", "pdefignore", "mdefignore", "patk_mod", "matk_mod"], "values": [[20, 0, 0, 0, 0, 0], [0, 20, 0, 0, 0, 0], [0, 0, 10, 10, 0, 0], [0, 0, 0, 0, 8, 8]] },
     { "id": 521, "name": "Trolley Dilemma", "icon": "trolley_dillema", "category": "general", "mode": "mult_red", "options": ["Basic"], "stats": ["mpr_mod"], "values": [[20]], "pvp_values": [[5]] },
     { "id": 522, "name": "Over Treatment", "icon": "over_treatment", "category": "general", "mode": "mult", "options": ["20 Stacks", "40 Stacks", "60 Stacks", "80 Stacks", "100 Stacks",], "stats": ["mpattack", "awkc", "crit", "maxi", "patk_mod", "matk_mod", "recitem"], "values": [[-5, 0, 0, 0, 0, 0, 0], [-5, -5, 0, 0, 0, 0, 0], [-5, -5, -5, 0, 0, 0, 0], [-5, -5, -5, -5, 0, 0, 0], [-5, -5, -5, -5, -50, -50, -50]] },
@@ -301,7 +301,8 @@ equip_buff_list = [
     { "id": 71, "name": "Shadow Body", "category": "class", "class": ["oz_sorcerer"], "icon": "shadow_body", "mode": ["mult", "mult", "mult", "mult"], "options": ["Basic"], "stats": ["matk_mod", "patk_mod", "mpattack", "mpattacked"], "values": [[27, -15, 13, 13]] },
     { "id": 72, "name": "Energy Discharge", "category": "class", "class": ["oz_sorcerer"], "icon": "energy_discharge", "mode": "add_u", "options": ["3 Bead", "2 Bead", "1 Bead"], "stats": ["maxmp"], "values": [[50], [30], [10]], "pvp_values": [[20], [12], [4]] },
     { "id": 73, "name": "Awakened Will: Void Princess", "category": "class", "class": ["oz_sorcerer"], "icon": "awakened_will_void_princess", "mode": "mult_red", "options": ["Basic"], "stats": ["cdr_mod", "mpr_mod"], "values": [[20, 20]] },
-    { "id": 663, "name": "Deathly Shadow", "category": "class", "class": ["oz_sorcerer"], "icon": "deathly_shadow", "mode": "mult_red", "options": ["Special/Active/Command"], "stats": ["pdefignorechance", "mdefignorechance"], "values": [[20,20]] },
+    { "id": 662, "name": "Deathly Shadow", "category": "class", "class": ["oz_sorcerer"], "icon": "deathly_shadow", "mode": "mult_red", "options": ["Special/Active/Command"], "stats": ["pdefignorechance", "mdefignorechance"], "values": [[20,20]] },
+    { "id": 715, "name": "Oz's Power", "category": "class", "class": ["oz_sorcerer"], "icon": "oz_power", "mode": "mult", "options": ["Basic"], "stats": ["specialdmg_mod"], "values": [[15,7.5]] },
 
     //metamorphy
     { "id": 74, "name": "Magical Makeup", "category": "class", "class": ["metamorphy"], "icon": "magical_makeup", "mode": ["mult", "mult", "mult_red", "mult", "add_u"], "options": ["Basic"], "stats": ["mpattack", "mpattacked", "red", "specialdmg_mod", "maxmp"], "values": [[50, 50, 20, 15, 50]], "pvp_values": [[20, 20, 20, 15, 50]] },
@@ -804,7 +805,7 @@ equip_buff_list = [
     { "id": 432, "name": "Install - Zero Kelvin Generator", "icon": "zero_kelvin_generator", "category": "debuff", "mode": "mult", "options": ["Killing Blow (2) - DMP", "Killing Blow (2)", "DMP", "Basic"], "stats": ["awk_dmg_mod"], "values": [[13.65], [9.1], [10.5], [7]], "pvp_values": [[6.83], [4.55], [5.25], [3.5]] },
     { "id": 670, "name": "Install - Drone Activator", "icon": "drone_activator", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[21.5, 21.5]] },
     { "id": 649, "name": "Moonlight Rhapsody", "icon": "moonlight_rhapsody", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[12]], "pvp_values": [[6]] },
-    { "id": 666, "name": "Stimpack", "icon": "stimpack", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]], "pvp_values": [[10, 10]] },
+    { "id": 666, "name": "Stimpack", "icon": "stimpack", "category": "debuff", "mode": "mult_red", "options": ["Basic", "Nocebo Effect"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20], [22.5, 22.5]], "pvp_values": [[10, 10], [12.5, 12.5]] },
 
     { "id": 508, "name": "Side Effect", "icon": "side_effect", "category": "debuff", "mode": "mult", "options": ["5 Stacks", "4 Stacks", "3 Stacks", "2 Stacks", "1 Stack"], "stats": ["awk_dmg_mod"], "values": [[25], [20], [15], [10], [5]] },
     { "id": 229, "name": "Eagle's Radar", "icon": "eagles_radar", "category": "debuff", "mode": "add_u", "options": ["Basic"], "stats": ["crit"], "values": [[20]] },
@@ -862,7 +863,7 @@ equip_buff_list = [
     { "id": 628, "name": "Reaper", "icon": "reaper", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 629, "name": "Festival!", "icon": "festival", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10]] },
     { "id": 642, "name": "Attack of Steel Machines", "icon": "attack_of_steel_machines", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[48, 48]] },
-    //714
+    //715
 ]
 
 equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 328, 367, 576, 227, 637, 531, 422, 435, 242, 361, 354, 270]
