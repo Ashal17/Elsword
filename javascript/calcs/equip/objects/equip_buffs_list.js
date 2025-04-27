@@ -102,9 +102,10 @@ equip_buff_list = [
     { "id": 654, "name": "Generosity", "icon": "generosity", "category": "general", "mode": "mult_red", "options": ["Caster/Vower", "Other - RP", "Other"], "stats": ["red"], "values": [[20], [18], [15]], "pvp_values": [[10], [9], [7.5]] },
     { "id": 658, "name": "Grandeur", "icon": "grandeur", "category": "general", "mode": "add", "options": ["Caster/Vower"], "stats": ["bossdmg"], "values": [[15]] },
     { "id": 671, "name": "Horizon", "icon": "horizon", "category": "general", "mode": "mult", "options": ["Caster/Vower"], "stats": ["alldmg_mod"], "values": [[5]] },
+    { "id": 721, "name": "Adsorb", "icon": "adsorb", "category": "general", "mode": "mult", "options": ["Basic", "Manifesting Rift"], "stats": ["matk_mod"], "values": [[10], [15]] },
     { "id": 426, "name": "Arche - Mater", "icon": "arche", "category": "general", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefignore", "mdefignore"], "values": [[5, 5]] },
     { "id": 427, "name": "Arche - Merus", "icon": "arche", "category": "general", "mode": "mult", "options": ["Basic"], "stats": ["as", "ms", "js"], "values": [[5, 5, 5]] },
-    { "id": 459, "name": "Joining", "icon": "joining", "category": "general", "mode": "mult", "options": ["100 Stacks"], "stats": ["alldmg_mod"], "values": [[20]], "pvp_values": [[10]] },
+    
 
     { "id": 673, "name": "Iron Body", "icon": "iron_body", "category": "general", "mode": "mult_red", "options": ["Basic"], "stats": ["red"], "values": [[20]], "pvp_values": [[20]] },
     { "id": 387, "name": "Awakened Will: Sacred Templar - El's Glory", "category": "general", "icon": "awakened_will_sacred_templar", "mode": "mult_red", "options": ["Basic"], "stats": ["red"], "values": [[8]], "pvp_values": [[4]] },
@@ -726,9 +727,11 @@ equip_buff_list = [
     { "id": 657, "name": "Prove", "icon": "prove", "class": ["avarice"], "category": "class", "mode": "mult_red", "options": ["Basic"], "stats": ["cdr_mod"], "values": [[10]], "pvp_values": [[5]] },
     { "id": 659, "name": "Wish in Mind", "icon": "wish_in_mind", "class": ["avarice"], "category": "class", "mode": ["add","add", "add", "mult", "mult"], "options": ["Basic"], "stats": ["as", "ms", "js", "mpattack", "mpattacked"], "values": [[10,20,20,20,20]], "pvp_values": [[5,10,10,10,10]] },
     //achlys
-
+    { "id": 716, "name": "Possibility", "icon": "possibility", "class": ["achlys"], "category": "class", "mode": ["mult_red", "mult_red", "mult"], "options": ["Basic"], "stats": ["mpr_mod", "cdr_mod", "specialdmg_mod"], "values": [[10, 15, 20]], "pvp_values": [5, 7.5, 8] },
+    { "id": 717, "name": "Encounter the Unknown", "icon": "encounter_the_unknown", "class": ["achlys"], "category": "class", "mode": ["add", "add", "add", "mult"], "options": ["Basic"], "stats": ["as", "ms", "js", "mpattack"], "values": [[15, 15, 15, 20]], "pvp_values": [15, 15, 15, 10] },
+    { "id": 718, "name": "Dangerous Being", "icon": "dangerous_being", "class": ["achlys"], "category": "class", "mode": "mult", "options": ["Basic"], "stats": ["dmg_mod"], "values": [[25]], "pvp_values": [12.5] },
     //mischief
-    { "id": 679, "name": "Obelisk", "icon": "obelisk", "class": ["mischief"], "category": "class", "mode": "mult", "options": ["Basic"], "stats": ["specialdmg_mod"], "values": [[15]] },
+    //{ "id": 679, "name": "Obelisk", "icon": "obelisk", "class": ["mischief"], "category": "class", "mode": "mult", "options": ["Basic"], "stats": ["specialdmg_mod"], "values": [[15]] },
     { "id": 680, "name": "An Irresistible Invitation", "icon": "an_irresistible_invitation", "class": ["mischief"], "category": "class", "mode": "add", "options": ["Basic"], "stats": ["as", "ms", "js"], "values": [[10,15,15]] },
     { "id": 681, "name": "Dice of Fate", "icon": "dice_of_fate", "class": ["mischief"], "category": "class", "mode": "mult_red", "options": ["Basic"], "stats": ["cdr_mod"], "values": [[25]] },
     { "id": 682, "name": "Fascinating Development", "icon": "fascinating_development", "class": ["mischief"], "category": "class", "mode": "mult", "options": ["Basic"], "stats": ["specialdmg_mod"], "values": [[20]] },
@@ -849,6 +852,8 @@ equip_buff_list = [
     { "id": 434, "name": "Unfamiliar Dawn", "icon": "unfamiliar_dawn", "category": "debuff", "mode": "mult_debuff", "options": ["3 Stacks", "2 Stacks", "1 Stack"], "stats": ["critdmg"], "values": [[18], [12], [6]], "pvp_values": [[9], [6], [3]] },
     { "id": 672, "name": "Horizon", "icon": "horizon", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 674, "name": "Persistence", "icon": "persistence", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
+    { "id": 719, "name": "Scientific Name, Polypus", "icon": "polypus", "category": "debuff", "mode": "mult_red", "options": ["Basic", "Manifesting Rigt"], "stats": ["mdefreduction"], "values": [[20], [30]], "pvp_values": [[10], [15]] },
+    { "id": 720, "name": "Scientific Name, Trygon", "icon": "trygon", "category": "debuff", "mode": "mult", "options": ["Basic", "Manifesting Rigt"], "stats": ["awk_dmg_mod"], "values": [[10], [13]] },
     { "id": 677, "name": "Fascinating Development", "icon": "fascinating_development", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefreduction"], "values": [[20]] },
     { "id": 678, "name": "King le Pix", "icon": "king_le_pix", "category": "debuff", "mode": "mult_debuff", "options": ["2 Stacks", "1 Stack"], "stats": ["critdmg"], "values": [[20], [12.5]] },
     
@@ -863,10 +868,10 @@ equip_buff_list = [
     { "id": 628, "name": "Reaper", "icon": "reaper", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 629, "name": "Festival!", "icon": "festival", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10]] },
     { "id": 642, "name": "Attack of Steel Machines", "icon": "attack_of_steel_machines", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[48, 48]] },
-    //715
+    //721
 ]
 
-equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 328, 367, 576, 227, 637, 531, 422, 435, 242, 361, 354, 270]
+equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 328, 367, 576, 227, 637, 531, 422, 435, 242, 361, 354, 270, 679]
 
 equip_buff_list_categories = {
     "general": "All",
