@@ -70,6 +70,7 @@ accs_list_items = {
         { "id": 67, "name": "Harmony Festival Elrianode Costume Suit", "set_id": 0, "icon": "harmony_festival_elrianode_costume_suit", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 20, "matk", 20, "pdef", 10, "mdef", 10, "maxi", 3, "alldmg", 2], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 68, "name": "Elite Striker Party Uniform - Crimson Edge", "set_id": 0, "icon": "unknown", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "pdef", 10, "mdef", 10, "crit", 3, "adapt", 1, "maxi", 3, "alldmg", 1], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 69, "name": "Sporty Maid", "set_id": 0, "icon": "sporty_maid", "char_icon": 0, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "pdef", 20, "mdef", 20, "crit", 3, "alldmg", 2], "socket_possible": ["socket_armor"], "socket": 1 },
+        { "id": 70, "name": "Banthus Suit", "set_id": 0, "icon": "banthus_suit", "char_icon": 0, "required_lvl": 0, "fixed": ["patk", 15, "matk", 15, "pdef", 20, "mdef", 20, "crit", 3, "as", 3, "mpattack", 2.5, "mpattacked", 5, "hp", 3], "socket_possible": ["socket_armor"], "socket": 1 },
     ],
     "hair": [
         { "id": 0, "name": "Hair Costume", "set_id": 0, "icon": "blank", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": [], "socket": 0 },
@@ -1262,7 +1263,8 @@ accs_list_items = {
         { "id": 76, "name": "Harmony", "set_id": 0, "icon": "harmony", "char_icon": 0, "required_lvl": 0, "fixed": ["reslig", 50, "elemlig", 1, "maxmp%", 5, "patk%", 2, "matk%", 2, "crit", 4] },
         { "id": 77, "name": "Bliss", "set_id": 0, "icon": "bliss", "char_icon": 0, "required_lvl": 0, "fixed": ["reslig", 50, "elemlig", 1, "maxmp%", 5, "patk%", 2, "matk%", 2, "crit", 4] },
         { "id": 78, "name": "Flamingoooo", "set_id": 0, "icon": "flamingoooo", "char_icon": 0, "required_lvl": 0, "fixed": ["reswat", 50, "elemwat", 1, "maxmp%", 5, "patk%", 2, "matk%", 2, "maxi", 2, "as", 2] },
-        { "id": 79, "name": "Derurung", "set_id": 0, "icon": "Derurung", "char_icon": 0, "required_lvl": 0, "fixed": ["reswat", 50, "elemwat", 1, "patk%", 2, "matk%", 2, "maxmp%", 5, "crit", 2, "maxi", 2] }
+        { "id": 79, "name": "Derurung", "set_id": 0, "icon": "Derurung", "char_icon": 0, "required_lvl": 0, "fixed": ["reswat", 50, "elemwat", 1, "patk%", 2, "matk%", 2, "maxmp%", 5, "crit", 2, "maxi", 2] },
+        { "id": 80, "name": "RX-78 Land Runner", "set_id": 0, "icon": "rx_78_land_runner", "char_icon": 0, "required_lvl": 0, "fixed": ["resfir", 50, "elemfir", 1, "patk%", 1, "matk%", 1, "maxmp%", 5, "hp", 5, "as", 2, "ms", 2, "js", 2] },
 
     ],
 
