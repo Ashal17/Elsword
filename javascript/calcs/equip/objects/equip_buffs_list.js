@@ -820,7 +820,8 @@ equip_buff_list = [
     { "id": 277, "name": "Swift Assassin", "icon": "swift_assassin", "category": "debuff", "mode": "set", "options": ["Basic"], "stats": ["crit"], "values": [[100]] },
     { "id": 436, "name": "Mortal Fear", "icon": "mortal_fear", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[20]] }, 
     { "id": 693, "name": "Land of Death", "icon": "supreme_punishment", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[15]] },
-    { "id": 710, "name": "Phantom Blade", "icon": "phantom_blade", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction"], "values": [[30]], "pvp_values": [[30]] },
+    //{ "id": 710, "name": "Phantom Blade", "icon": "phantom_blade", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction"], "values": [[30]], "pvp_values": [[30]] },
+    { "id": 722, "name": "Echo of Death", "icon": "oblivion", "category": "debuff", "mode": "mult_debuff", "options": ["Basic"], "stats": ["critdmg"], "values": [[12]], "pvp_values": [[12]] },
     { "id": 473, "name": "Shadow", "icon": "shadow", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefreduction"], "values": [[31]], "pvp_values": [[15.5]] },
     { "id": 711, "name": "Shadow Bolt", "icon": "shadow_bolt", "category": "debuff", "mode": "mult_debuff", "options": ["Basic"], "stats": ["critdmg"], "values": [[10]], "pvp_values": [[10]] },
     { "id": 430, "name": "[Force] Altar of Evil", "icon": "altar_of_evil", "category": "debuff", "mode": "mult_debuff", "options": ["Basic"], "stats": ["crit_dmg"], "values": [[12]] },
@@ -868,10 +869,10 @@ equip_buff_list = [
     { "id": 628, "name": "Reaper", "icon": "reaper", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 629, "name": "Festival!", "icon": "festival", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10]] },
     { "id": 642, "name": "Attack of Steel Machines", "icon": "attack_of_steel_machines", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[48, 48]] },
-    //721
+    //723
 ]
 
-equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 328, 367, 576, 227, 637, 531, 422, 435, 242, 361, 354, 270, 679]
+equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 328, 367, 576, 227, 637, 531, 422, 435, 242, 361, 354, 270, 679, 710]
 
 equip_buff_list_categories = {
     "general": "All",

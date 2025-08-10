@@ -149,8 +149,8 @@ accs_list_items = {
         { "id": 74, "name": "Abyssal Existence Hair", "set_id": 168, "icon": "abyssal_existence_hair", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 2, "maxi", 2], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 75, "name": "Vita Fontana Hair", "set_id": 169, "icon": "vita_fontana_hair", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 2, "maxi", 2], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 76, "name": "Erebus Elegy Hair", "set_id": 170, "icon": "erebus_elegy_hair", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
+        { "id": 77, "name": "Tiger's Tale Hair", "set_id": 171, "icon": "tiger_s_tale_hair", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 49, "name": "[Cobo] Velder Academy Uniform Hair - Trouble Maker", "set_id": 301, "icon": "velder_academy_uniform_hair", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["patk", 15, "matk", 15, "awkt", 1.5, "red", 1], "socket": 1, "socket_possible": ["socket_armor"] },
-
     ],
 
     "topcos": [
@@ -225,9 +225,9 @@ accs_list_items = {
         { "id": 70, "name": "Abyssal Existence Top Piece", "set_id": 168, "icon": "abyssal_existence_top_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 2, "maxi", 2], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 71, "name": "Vita Fontana Top Piece", "set_id": 169, "icon": "vita_fontana_top_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 72, "name": "Erebus Elegy Top Piece", "set_id": 170, "icon": "erebus_elegy_top_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "maxi", 4], "socket_possible": ["socket_armor"], "socket": 1 },
+        { "id": 73, "name": "Tiger's Tale Top Piece", "set_id": 171, "icon": "tiger_s_tale_top_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 45, "name": "[Cobo] Velder Academy Uniform Top - Trouble Maker", "set_id": 301, "icon": "velder_academy_uniform_top", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["pdef", 15, "mdef", 15, "awkt", 3, "add", 1.5], "socket": 1, "socket_possible": ["socket_armor"] },
         { "id": 49, "name": "Promotional Top", "set_id": 302, "icon": "promotional_top", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": [], "socket": 1, "socket_possible": ["socket_armor"] },
-
     ],
 
     "botcos": [
@@ -302,6 +302,7 @@ accs_list_items = {
         { "id": 70, "name": "Abyssal Existence Bottom Piece", "set_id": 168, "icon": "abyssal_existence_bottom_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 2, "maxi", 2], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 71, "name": "Vita Fontana Bottom Piece", "set_id": 169, "icon": "vita_fontana_bottom_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 72, "name": "Erebus Elegy Bottom Piece", "set_id": 170, "icon": "erebus_elegy_bottom_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "maxi", 4], "socket_possible": ["socket_armor"], "socket": 1 },
+        { "id": 73, "name": "Tiger's Tale Bottom Piece", "set_id": 171, "icon": "tiger_s_tale_bottom_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "maxi", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 45, "name": "[Cobo] Velder Academy Uniform Bot - Trouble Maker", "set_id": 301, "icon": "velder_academy_uniform_bottom", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["pdef", 15, "mdef", 15, "hp", 1, "mpattacked", 1], "socket": 1, "socket_possible": ["socket_armor"] },
         { "id": 49, "name": "Promotional Bottom", "set_id": 302, "icon": "promotional_bottom", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": [], "socket": 1, "socket_possible": ["socket_armor"] },
     ],
@@ -378,9 +379,9 @@ accs_list_items = {
         { "id": 70, "name": "Abyssal Existence Gloves", "set_id": 168, "icon": "abyssal_existence_gloves", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 2, "maxi", 2], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 71, "name": "Vita Fontana Gloves", "set_id": 169, "icon": "vita_fontana_gloves", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "maxi", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 72, "name": "Erebus Elegy Gloves", "set_id": 170, "icon": "erebus_elegy_gloves", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
+        { "id": 73, "name": "Tiger's Tale Gloves", "set_id": 171, "icon": "tiger_s_tale_gloves", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 45, "name": "[Cobo] Velder Academy Uniform Gloves - Trouble Maker", "set_id": 301, "icon": "velder_academy_uniform_gloves", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["patk", 15, "matk", 15, "mpattack", 0.5, "maxi", 1], "socket": 1, "socket_possible": ["socket_armor"] },
         { "id": 49, "name": "Promotional Gloves", "set_id": 302, "icon": "promotional_gloves", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": [], "socket": 1, "socket_possible": ["socket_armor"] },
-
     ],
 
     "shoescos": [
@@ -455,9 +456,9 @@ accs_list_items = {
         { "id": 70, "name": "Abyssal Existence Shoes", "set_id": 168, "icon": "abyssal_existence_shoes", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 2, "maxi", 2], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 71, "name": "Vita Fontana Shoes", "set_id": 169, "icon": "vita_fontana_shoes", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "maxi", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 72, "name": "Erebus Elegy Shoes", "set_id": 170, "icon": "erebus_elegy_shoes", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
+        { "id": 73, "name": "Tiger's Tale Shoes", "set_id": 171, "icon": "tiger_s_tale_shoes", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "maxi", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 45, "name": "[Cobo] Velder Academy Uniform Shoes - Trouble Maker", "set_id": 301, "icon": "velder_academy_uniform_shoes", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["patk", 15, "matk", 15, "ms", 2, "mpattacked", 1], "socket": 1, "socket_possible": ["socket_armor"] },
         { "id": 49, "name": "Promotional Shoes", "set_id": 302, "icon": "promotional_shoes", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": [], "socket": 1, "socket_possible": ["socket_armor"] },
-
     ],
 
     "wepcos": [
@@ -532,6 +533,7 @@ accs_list_items = {
         { "id": 70, "name": "Abyssal Existence Weapon", "set_id": 68, "icon": "abyssal_existence_weapon", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 200, "matk", 200, "dmg100", 5], "socket_possible": ["socket_weapon", "socket_weapon"], "socket": 2 },
         { "id": 71, "name": "Vita Fontana Weapon", "set_id": 69, "icon": "vita_fontana_weapon", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 200, "matk", 200, "dmg100", 5], "socket_possible": ["socket_weapon", "socket_weapon"], "socket": 2 },
         { "id": 72, "name": "Erebus Elegy Weapon", "set_id": 70, "icon": "erebus_elegy_weapon", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 200, "matk", 200, "acdmg", 5, "critdmg", 2], "socket_possible": ["socket_weapon", "socket_weapon"], "socket": 2 },
+        { "id": 73, "name": "Tiger's Tale Weapon ", "set_id": 71, "icon": "tiger_s_taleweapon", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 200, "matk", 200, "dmg100", 5], "socket_possible": ["socket_weapon", "socket_weapon"], "socket": 2 },
         { "id": 45, "name": "[Cobo] Velder Academy Uniform Weapon - Trouble Maker", "set_id": 301, "icon": "velder_academy_uniform_weapon", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["patk", 15, "matk", 15, "crit", 2, "hp", 2.5], "socket": 1, "socket_possible": ["socket_weapon"] },
         { "id": 49, "name": "Promotional Weapon", "set_id": 302, "icon": "promotional_weapon", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": [], "socket": 1, "socket_possible": ["socket_weapon"] },
      ],
@@ -660,7 +662,7 @@ accs_list_items = {
 
     "weapon": [
         { "id": 0, "name": "Weapon", "set_id": 0, "icon": "blank", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": [], "socket": 0 },
-        { "id": 19, "name": "Undead Dragon's Will - Mortal Weapon", "set_id": 272, "icon": "mortal_weapon", "char_icon": 1, "required_lvl": 99, "random": ["wep_6", "wep_4.5", "wep_4.5"], "fixed": ["adapt", 5, "mpr", 8], "socket": 6, "socket2": 0, "socket3": 30, "socket4": 4, "socket4name": "Stat Change Effects", "socket_possible": ["socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "no_socket", "no_socket", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_giant", "mystic_giant", "mystic_giant", "dragon_stat_change", "dragon_stat_change", "dragon_stat_change", "dragon_stat_change"], "itemlvl": 40, "itemlvl_atk": 50, "range": 0.55, "imprint": [{ "activation": "default", "chance": "default", "effect": "default" }, { "activation": "default", "chance": "default", "effect": "default" }, { "activation": "default", "chance": "default", "effect": "default" }], "reforge": [[1, "alldmg", 15], [1, "Upon successful attack, 30% chance to activate Undead Dragon's Breath(Cooldown: 50 secs)", 0], [2, "patk_lvl", 15], [2, "matk_lvl", 15], [3, "patk_lvl", 5], [3, "matk_lvl", 5], [4, "patk_lvl", 5], [4, "matk_lvl", 5], [5, "alldmg", 5], [5, "patk_lvl", 5], [5, "matk_lvl", 5], [6, "Upon succesful attack, 30% chance to activate Undead Dragon's Breath(Cooldown: 50 secs)", 0]], "reforge_table": "undead_dragon_will" },
+        { "id": 19, "name": "Undead Dragon's Will - Mortal Weapon", "set_id": 272, "icon": "mortal_weapon", "char_icon": 1, "required_lvl": 99, "random": ["wep_6", "wep_4.5", "wep_4.5"], "fixed": ["adapt", 5, "mpr", 8], "socket": 6, "socket2": 0, "socket3": 30, "socket4": 4, "socket4name": "Stat Change Effects", "socket_possible": ["socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "no_socket", "no_socket", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_giant", "mystic_giant", "mystic_giant", "dragon_stat_change", "dragon_stat_change", "dragon_stat_change", "dragon_stat_change"], "itemlvl": 40, "itemlvl_atk": 50, "range": 0.55, "imprint": [{ "activation": "default", "chance": "default", "effect": "default" }, { "activation": "default", "chance": "default", "effect": "default" }, { "activation": "default", "chance": "default", "effect": "default" }], "reforge": [[1, "alldmg", 15], [1, "Upon successful attack, 30% chance to activate Undead Dragon's Breath(Cooldown: 50 secs)", 0], [2, "patk_lvl", 15], [2, "matk_lvl", 15], [3, "patk_lvl", 5], [3, "matk_lvl", 5], [4, "alldmg", 5], [5, "patk_lvl", 5], [5, "matk_lvl", 5], [6, "Upon succesful attack, 30% chance to activate Undead Dragon's End (Cooldown: 50 secs)", 0]], "reforge_table": "undead_dragon_will" },
         { "id": 18, "name": "Submergence of Abyss - Phantom Weapon", "set_id": 270, "icon": "phantom_weapon", "char_icon": 1, "required_lvl": 99, "random": ["wep_6", "wep_4.5", "wep_4.5"], "fixed": ["adapt", 5, "mpr", 5], "enhancement": [[10, "patk%", 12], [10, "matk%", 12], [11, "aadmg", 10], [12, "patk_lvl", 12], [12, "matk_lvl", 12], [13, "critdmg", 10]], "pvp_enhancement": [[10, "patk%", 12], [10, "matk%", 12], [11, "aadmg", 10], [12, "patk_lvl", 12], [12, "matk_lvl", 12], [13, "critdmg", 10]], "socket": 6, "socket2": 0, "socket3": 30, "socket_possible": ["socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "no_socket", "no_socket", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_giant", "mystic_giant", "mystic_giant"], "itemlvl": 35, "range": 0.55, "imprint": [{ "activation": "default", "chance": "default", "effect": "default" }, { "activation": "default", "chance": "default", "effect": "default" }, { "activation": "default", "chance": "default", "effect": "default" }], "reforge": [[1, "alldmg", 10], [1, "Upon successful attack, 30% chance to activate Abyssal Grasp (Cooldown: 50 secs)", 0], [2, "patk_lvl", 10], [2, "matk_lvl", 10], [3, "alldmg", 5], [4, "patk_lvl", 5], [4, "matk_lvl", 5], [5, "alldmg", 5], [5, "patk_lvl", 5], [5, "matk_lvl", 5], [5, "Upon succesful attack, 30% chance to activate Merciless Abyssal Grasp (Cooldown: 50 secs)", 0]], "reforge_table": "vestige_of_soul" },
         { "id": 16, "name": "Vestige of Soul - Weapon of Requiem", "set_id": 0, "icon": "soul_trace_weapon", "char_icon": 1, "required_lvl": 99, "random": ["wep_6", "wep_4.5", "wep_4.5"], "fixed": ["adapt", 5], "enhancement": [[10, "patk%", 10], [10, "matk%", 10], [11, "patk_lvl", 10], [11, "matk_lvl", 10], [12, "aadmg", 7], [13, "critdmg", 10]], "pvp_enhancement": [[10, "patk%", 10], [10, "matk%", 10], [11, "patk_lvl", 10], [11, "matk_lvl", 10], [12, "aadmg", 7], [13, "critdmg", 10]], "socket": 6, "socket2": 0, "socket3": 30, "socket_possible": ["socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "no_socket", "no_socket", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_giant", "mystic_giant", "mystic_giant"], "itemlvl": 30, "range": 0.55, "imprint": [{ "activation": "default", "chance": "default", "effect": "default" }, { "activation": "default", "chance": "default", "effect": "default" }, { "activation": "default", "chance": "default", "effect": "default" }], "reforge": [[1, "Upon successful attack with Special Active skill, 30% chance to activate Light of the Dead (Cooldown: 50 sec.)", 0], [2, "mpr", 5], [3, "mpr", 3], [3, "patk_lvl", 5], [3, "matk_lvl", 5], [4, "patk_lvl", 5], [4, "matk_lvl", 5], [5, "alldmg", 10], [5, "Enhanced Light of the Dead", 0]], "reforge_table": "vestige_of_soul" },
         { "id": 2, "name": "Flames of Judgement - Demonic Weapon", "set_id": 0, "icon": "flames_demonic_weapon", "char_icon": 1, "required_lvl": 99, "random": ["wep_6", "wep_4.5", "wep_4.5"], "fixed": ["resfir", 50, "adapt", 5, "elemfir", 1, "When attacking, a 2% chance to summon Black Titan's beam (Cooldown: 60 sec.)", 0], "enhancement": [[9, "mpr", 5], [10, "alldmg", 10], [11, "patk_lvl", 10], [11, "matk_lvl", 10], [12, "patk%", 5], [12, "matk%", 5], [13, "critdmg", 10]], "pvp_enhancement": [[10, "alldmg", 10], [11, "patk_lvl", 10], [11, "matk_lvl", 10], [12, "patk%", 5], [12, "matk%", 5], [13, "critdmg", 10]], "socket": 6, "socket2": 0, "socket3": 30, "socket_possible": ["socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "socket_weapon", "no_socket", "no_socket", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_red", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_blue", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_yellow", "mystic_giant", "mystic_giant", "mystic_giant"], "itemlvl": 25, "range": 0.55, "imprint": [{ "activation": "default", "chance": "default", "effect": "default" }, { "activation": "default", "chance": "default", "effect": "default" },] },
@@ -837,7 +839,7 @@ accs_list_items = {
         { "id": 32, "name": "Ascending Dragon Face Middle Accessory", "set_id": 66, "icon": "ascending_dragon_face_middle_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "alldmg", 2, "mpr", 5] },
         { "id": 33, "name": "Vita Fontana Face Middle Accessory", "set_id": 69, "icon": "vita_fontana_face_middle_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "adapt", 1, "mpr", 5] },
         { "id": 34, "name": "Elrios Guardian Knights Face Middle Accessory", "set_id":271, "icon":"elrios_guardian_knights_face_middle_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "crit", 3] },
-
+        { "id": 35, "name": "Tiger's Tale Face Middle Accessory", "set_id":71, "icon":"tiger_s_tale_face_middle_accessory", "char_icon":1, "required_lvl":0, "fixed":["patk", 30, "matk", 30, "aadmg", 2, "maxi", 1]}
     ],
 
     "facebot": [
@@ -902,7 +904,7 @@ accs_list_items = {
         { "id": 14, "name": "Empire Reign Earring Accessory", "set_id": 67, "icon": "empire_reign_earring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "alldmg", 2] },
         { "id": 15, "name": "Abyssal Existence Earring Accessory", "set_id": 68, "icon": "abyssal_existence_earring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "critdmg", 1] },
         { "id": 16, "name": "Elrios Guardian Knights Earring Accessory", "set_id":271, "icon":"elrios_guardian_knights_earring_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "crit", 2, "maxi", 2] },
-
+        { "id": 17, "name": "Tiger's Tale Earring Accessory ", "set_id": 71, "icon": "tiger_s_tale_earringaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 1, "alldmg", 1] }
     ],
 
     "topacc": [
@@ -919,6 +921,7 @@ accs_list_items = {
         { "id": 58, "name": "Engine Cooling System", "set_id": 0, "icon": "heat_release_engine", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["adapt", 1, "dmg50+", -10, "dmg50", 10] },
         { "id": 60, "name": "Sirena's Authority", "set_id": 269, "icon": "sirena_authority", "char_icon": 0, "required_lvl": 0, "fixed": ["pdef", 30, "mdef", 30, "as", 1], "random": ["acc1"] },
         { "id": 77, "name": "Crushing Power", "set_id": 0, "icon": "crushing_power", "char_icon": 0, "required_lvl": 99, "fixed": ["adapt", 1, "hpflat", 2, "ms", 2] },
+        { "id": 80, "name": "Queen of Gold Wings", "set_id": 0, "icon": "queen_of_gold_wings", "char_icon": 0, "required_lvl": 0, "fixed": ["crit", 4, "maxi", 4] },
         { "id": 52, "name": "Mysterious El Lord Wings", "set_id": 266, "icon": "mysterious_el_lord_wings", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 1.5, "ms", 2, "js", 2, "5% chance to activate Random Missions", 0], "pvp_fixed": ["crit", 1.5, "ms", 2, "js", 2] },
         { "id": 79, "name": "[ElsRift] Code of Cooling Knowledge", "set_id": 0, "icon": "code_of_cooling_knowledge", "char_icon": 0, "required_lvl": 0, "fixed": ["adapt", 1, "dmg50+", 10, "dmg50", 10] },
 
@@ -991,7 +994,7 @@ accs_list_items = {
         { "id": 64, "name": "Empire Reign Top Accessory", "set_id": 67, "icon": "empire_reign_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "as", 3] },
         { "id": 65, "name": "Vita Fontana Top Accessory", "set_id": 69, "icon": "vita_fontana_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "adapt", 1, "alldmg", 1] },
         { "id": 66, "name": "Elrios Guardian Knights Top Accessory", "set_id":271, "icon":"elrios_guardian_knights_top_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "maxi", 3] },
-
+        { "id": 67, "name": "Tiger's Tale Top Accessory ", "set_id": 71, "icon": "tiger_s_tale_topaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 1, "alldmg", 1] }
     ],
 
     "botacc": [
@@ -1155,7 +1158,8 @@ accs_list_items = {
         { "id": 3, "name": "Abyssal Existence PHY Ring Accessory", "set_id": 68, "icon": "abyssal_existence_phy_ring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "patk%", 3, "acdmg", 2] },
         { "id": 4, "name": "Abyssal Existence MAG Ring Accessory", "set_id": 68, "icon": "abyssal_existence_mag_ring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "matk%", 3, "acdmg", 2] },
         { "id": 5, "name": "Elrios Guardian Knights Ring Accessory", "set_id":271, "icon":"elrios_guardian_knights_ring_accessory", "char_icon":1, "required_lvl":0, "fixed":["patk", 25, "matk", 25, "alldmg", 2, "crit", 2] },    
-
+        { "id": 6, "name": "Tiger's Tale PHY Ring Accessory ", "set_id": 71, "icon": "tiger_s_tale_phy_ringaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "patk%", 3, "aadmg", 2] },
+        { "id": 7, "name": "Tiger's Tale MAG Ring Accessory ", "set_id": 71, "icon": "tiger_s_tale_mag_ringaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "matk%", 3, "aadmg", 2] },
     ],
 
     "ring2": [
@@ -1777,7 +1781,7 @@ accs_list_set = [
     { "id": 68, "name": "Abyssal Existence Accessories", "pieces": 3, "bonus": [[2, "acdmg", 5], [3, "cdr", 5], [3, "patk%", 7], [3, "matk%", 7]], },
     { "id": 69, "name": "Vita Fontana Accessories", "pieces": 3, "bonus": [[2, "cdr", 5], [2, "aadmg", 5], [3, "acdmg", 7]], },
     { "id": 70, "name": "Erebus Elegy Accessories", "pieces": 3, "bonus": [[2, "dmg100", 5], [3, "acdmg", 7], [3, "critdmg", 2]], },
-    { "id": 71, "name": "None", "pieces": 0, "bonus": [] },
+    { "id": 71, "name": "Tiger's Tale Accessories", "pieces": 3, "bonus": [[2, "aadmg", 4], [2, "strength", 4], [2, "brave", 4], [3, "dmg100", 6]] },
     { "id": 72, "name": "None", "pieces": 0, "bonus": [] },
     { "id": 73, "name": "None", "pieces": 0, "bonus": [] },
     { "id": 74, "name": "None", "pieces": 0, "bonus": [] },
@@ -1878,7 +1882,7 @@ accs_list_set = [
     { "id": 168, "name": "Abyssal Existence Costume", "pieces": 5, "bonus": [[2, "crit", 10], [4, "adapt", 5], [5, "acdmg", 10]] },
     { "id": 169, "name": "Vita Fontana Costume", "pieces": 5, "bonus": [[2, "maxi", 10], [4, "acdmg", 8], [5, "dmg100", 6]] },
     { "id": 170, "name": "Erebus Elegy Costume", "pieces": 5, "bonus": [[2, "crit", 5], [2, "maxi", 5], [4, "acdmg", 5], [5, "aadmg", 5], [5, "adapt", 5]] },
-    { "id": 171, "name": "None", "pieces": 0, "bonus": [] },
+    { "id": 171, "name": "Tiger's Tale Costume", "pieces": 5, "bonus": [[2, "critdmg", 8], [4, "acdmg", 5], [4, "dmg100", 4], [5, "adapt", 5]] },
     { "id": 172, "name": "None", "pieces": 0, "bonus": [] },
     { "id": 173, "name": "None", "pieces": 0, "bonus": [] },
     { "id": 174, "name": "None", "pieces": 0, "bonus": [] },
