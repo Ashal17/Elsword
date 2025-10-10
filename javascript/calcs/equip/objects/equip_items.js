@@ -151,7 +151,9 @@ accs_list_items = {
         { "id": 76, "name": "Erebus Elegy Hair", "set_id": 170, "icon": "erebus_elegy_hair", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 77, "name": "Tiger's Tale Hair", "set_id": 171, "icon": "tiger_s_tale_hair", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 78, "name": "Crest Drain Hair", "set_id": 172, "icon": "crest_drain_hair", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4, "maxi", 4], "socket_possible": ["socket_armor"], "socket": 1 },
+        { "id": 80, "name": "Grandiflora Hair", "set_id": 173, "icon":"grandiflora_hair", "char_icon":1, "required_lvl":0, "fixed": ["patk", 50, "matk", 50, "crit", 4]},
         { "id": 49, "name": "[Cobo] Velder Academy Uniform Hair - Trouble Maker", "set_id": 301, "icon": "velder_academy_uniform_hair", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["patk", 15, "matk", 15, "awkt", 1.5, "red", 1], "socket": 1, "socket_possible": ["socket_armor"] },
+        
     ],
 
     "topcos": [
@@ -228,6 +230,7 @@ accs_list_items = {
         { "id": 72, "name": "Erebus Elegy Top Piece", "set_id": 170, "icon": "erebus_elegy_top_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "maxi", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 73, "name": "Tiger's Tale Top Piece", "set_id": 171, "icon": "tiger_s_tale_top_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 74, "name": "Crest Drain Top Piece", "set_id": 172, "icon": "crest_drain_top_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "maxi", 4], "socket_possible": ["socket_armor"], "socket": 1 },
+        { "id": 76, "name":" Grandiflora Top Piece", "set_id": 173, "icon":"grandiflora_top_piece", "char_icon":1, "required_lvl":0, "fixed": ["patk", 50, "matk", 50, "maxi", 4]},
         { "id": 45, "name": "[Cobo] Velder Academy Uniform Top - Trouble Maker", "set_id": 301, "icon": "velder_academy_uniform_top", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["pdef", 15, "mdef", 15, "awkt", 3, "add", 1.5], "socket": 1, "socket_possible": ["socket_armor"] },
         { "id": 49, "name": "Promotional Top", "set_id": 302, "icon": "promotional_top", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": [], "socket": 1, "socket_possible": ["socket_armor"] },
     ],
@@ -306,6 +309,7 @@ accs_list_items = {
         { "id": 72, "name": "Erebus Elegy Bottom Piece", "set_id": 170, "icon": "erebus_elegy_bottom_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "maxi", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 73, "name": "Tiger's Tale Bottom Piece", "set_id": 171, "icon": "tiger_s_tale_bottom_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "maxi", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 74, "name": "Crest Drain Bottom Piece", "set_id": 172, "icon": "crest_drain_bottom_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "maxi", 4], "socket_possible": ["socket_armor"], "socket": 1 },
+        { "id": 76, "name": "Grandiflora Bottom Piece", "set_id": 173, "icon": "grandiflora_bottom_piece", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4]},
         { "id": 45, "name": "[Cobo] Velder Academy Uniform Bot - Trouble Maker", "set_id": 301, "icon": "velder_academy_uniform_bottom", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["pdef", 15, "mdef", 15, "hp", 1, "mpattacked", 1], "socket": 1, "socket_possible": ["socket_armor"] },
         { "id": 49, "name": "Promotional Bottom", "set_id": 302, "icon": "promotional_bottom", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": [], "socket": 1, "socket_possible": ["socket_armor"] },
     ],
@@ -384,6 +388,7 @@ accs_list_items = {
         { "id": 72, "name": "Erebus Elegy Gloves", "set_id": 170, "icon": "erebus_elegy_gloves", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 73, "name": "Tiger's Tale Gloves", "set_id": 171, "icon": "tiger_s_tale_gloves", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 74, "name": "Crest Drain Gloves", "set_id": 172, "icon": "crest_drain_gloves", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
+        { "id": 76, "name": "Grandiflora Gloves", "set_id": 173, "icon": "grandiflora_gloves", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "maxi", 4]},
         { "id": 45, "name": "[Cobo] Velder Academy Uniform Gloves - Trouble Maker", "set_id": 301, "icon": "velder_academy_uniform_gloves", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["patk", 15, "matk", 15, "mpattack", 0.5, "maxi", 1], "socket": 1, "socket_possible": ["socket_armor"] },
         { "id": 49, "name": "Promotional Gloves", "set_id": 302, "icon": "promotional_gloves", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": [], "socket": 1, "socket_possible": ["socket_armor"] },
     ],
@@ -462,6 +467,7 @@ accs_list_items = {
         { "id": 72, "name": "Erebus Elegy Shoes", "set_id": 170, "icon": "erebus_elegy_shoes", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 73, "name": "Tiger's Tale Shoes", "set_id": 171, "icon": "tiger_s_tale_shoes", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "maxi", 4], "socket_possible": ["socket_armor"], "socket": 1 },
         { "id": 74, "name": "Crest Drain Shoes", "set_id": 172, "icon": "crest_drain_shoes", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "crit", 4], "socket_possible": ["socket_armor"], "socket": 1 },
+        { "id": 76, "name": "Grandiflora Shoes", "set_id": 173, "icon": "grandiflora_shoes", "char_icon": 1, "required_lvl":0, "fixed": ["patk", 50, "matk", 50, "crit", 4]},
         { "id": 45, "name": "[Cobo] Velder Academy Uniform Shoes - Trouble Maker", "set_id": 301, "icon": "velder_academy_uniform_shoes", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["patk", 15, "matk", 15, "ms", 2, "mpattacked", 1], "socket": 1, "socket_possible": ["socket_armor"] },
         { "id": 49, "name": "Promotional Shoes", "set_id": 302, "icon": "promotional_shoes", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": [], "socket": 1, "socket_possible": ["socket_armor"] },
     ],
@@ -540,6 +546,7 @@ accs_list_items = {
         { "id": 72, "name": "Erebus Elegy Weapon", "set_id": 70, "icon": "erebus_elegy_weapon", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 200, "matk", 200, "acdmg", 5, "critdmg", 2], "socket_possible": ["socket_weapon", "socket_weapon"], "socket": 2 },
         { "id": 73, "name": "Tiger's Tale Weapon ", "set_id": 71, "icon": "tiger_s_taleweapon", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 200, "matk", 200, "dmg100", 5], "socket_possible": ["socket_weapon", "socket_weapon"], "socket": 2 },
         { "id": 74, "name": "Crest Drain Weapon", "set_id": 72, "icon": "crest_drain_weapon", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 200, "matk", 200, "dmg100", 5], "socket_possible": ["socket_weapon", "socket_weapon"], "socket": 2 },
+        { "id": 76, "name": "Grandiflora Weapon", "set_id": 73, "icon": "grandiflora_weapon", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 200, "matk", 200, "dmg100", 5], "socket_possible": ["socket_weapon", "socket_weapon"], "socket": 2 },
         { "id": 45, "name": "[Cobo] Velder Academy Uniform Weapon - Trouble Maker", "set_id": 301, "icon": "velder_academy_uniform_weapon", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["patk", 15, "matk", 15, "crit", 2, "hp", 2.5], "socket": 1, "socket_possible": ["socket_weapon"] },
         { "id": 49, "name": "Promotional Weapon", "set_id": 302, "icon": "promotional_weapon", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": [], "socket": 1, "socket_possible": ["socket_weapon"] },
      ],
@@ -703,6 +710,7 @@ accs_list_items = {
     "wepacc_ib": [
         { "id": 0, "name": "Weapon Accessory IB", "set_id": 0, "icon": "blank", "char_icon": 0, "required_lvl": 0, "fixed": [] },
         { "id": 1, "name": "Elrios Guardian Knights Weapon Accessory", "set_id":271, "icon":"elrios_guardian_knights_weapon_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "adapt", 2, "maxi", 2] },
+        { "id": 2, "name": "Grandiflora Weapon Accessory", "set_id":73, "icon":"grandiflora_weapon_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 30, "matk", 30, "crit", 2, "adapt", 2, "aadmg", 2]}
     ],
 
     "support": [
@@ -740,6 +748,7 @@ accs_list_items = {
         { "id": 15, "name": "Nox Venator: Evil Spirit Prison", "set_id": 62, "icon": "nox_venator_evil_spirit_prison", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "ms", 4] },
         { "id": 16, "name": "Erebus Elegy Support Unit Accessory", "set_id": 70, "icon": "erebus_elegy_support_unit_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 2, "maxi", 1] },
         { "id": 17, "name": "Elrios Guardian Knights Support Unit Accessory", "set_id":271, "icon":"elrios_guardian_knights_support_unit_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "crit", 2, "maxi", 2] },
+        { "id": 18, "name": "Grandiflora Support Unit Accessory", "set_id":73, "icon":"grandiflora_support_unit_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 30, "matk", 30, "aadmg", 2, "cdr", 5] },
     ],
 
 
@@ -751,7 +760,7 @@ accs_list_items = {
         { "id": 14, "name": "Corrupted Dimension Master's Hair Pin", "set_id": 258, "icon": "corrupted_dimension_master_hair_pin", "char_icon": 1, "required_lvl": 0, "random": ["acc1.5", "acc0.5"], "fixed": ["patk", 50, "matk", 50, "pdef", 25, "mdef", 25, "maxmp", 5, "adapt", 1] },
         { "id": 15, "name": "Radiant Champion's Helm", "set_id": 263, "icon": "radiant_champion_helm", "char_icon": 1, "required_lvl": 0, "random": ["acc_pvp_new0.5", "acc_pvp_new0.5", "acc_pvp_new0.5"], "fixed": [] },
         { "id": 16, "name": "Champion's Helm", "set_id": 264, "icon": "champion_helm", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "mdef", 30], "random": ["acc_pvp_old2", "acc_pvp_old1.5"] },
-        { "id": 17, "name": "Demonic Vine Crown", "set_id": 0, "icon": "demonic_vine_crown", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["awkc", 10, "awkt", -30, "patk%", -5, "matk%", -5, "Physical/Magical Attack Power during awakening +10%", 0], "buff_apply": [{ "id": 39, "option": 0 }] },
+        { "id": 17, "name": "Demonic Vine Crown", "set_id": 0, "icon": "demonic_vine_crown", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["awkc", 10, "awkt", -30, "patk%", -5, "matk%", -5, "Physical/Magical Attack Power during awakening +10%", 0], "buff_apply": [{ "id": 39, "option": 0 }] },                                                                                                                             
         { "id": 21, "name": "El Aura Halo", "set_id": 268, "icon": "el_aura_halo", "char_icon": 0, "required_lvl": 0, "random": ["acc1.5"], "fixed": ["alldmg", 0.5, "critdmg", 0.5] },
         { "id": 23, "name": "Soul Crown", "set_id": 0, "icon": "soul_crown", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["adapt", 2, "awkc", 5, "Physical/Magical Attack Power during awakening +5%", 0], "buff_apply": [{ "id": 287, "option": 0 }] },
         { "id": 24, "name": "Sirena's Jewel Tiara", "set_id": 269, "icon": "sirena_jewel_tiara", "char_icon": 0, "required_lvl": 0, "fixed": ["pdef", 25, "mdef", 25, "as", 1], "random": ["acc1"] },
@@ -871,6 +880,7 @@ accs_list_items = {
         { "id": 8, "name": "Flos Magica Face Bottom", "set_id": 60, "icon": "flos_magica_face_bottom", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "crit", 3, "critdmg", 1] },
         { "id": 9, "name": "Erebus Elegy Face Bottom Accessory", "set_id": 70, "icon": "erebus_elegy_face_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "mpr", 5] },
         { "id": 10, "name": "Elrios Guardian Knights Face Bottom Accessory", "set_id":271, "icon":"elrios_guardian_knights_face_bottom_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "crit", 3] }, 
+        { "id": 11, "name": "Grandiflora Face Bottom Accessory", "set_id":73, "icon":"grandiflora_face_bottom_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 30, "matk", 30, "acdmg", 2]} 
     ],
 
     "faceear": [
@@ -1001,7 +1011,8 @@ accs_list_items = {
         { "id": 64, "name": "Empire Reign Top Accessory", "set_id": 67, "icon": "empire_reign_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "as", 3] },
         { "id": 65, "name": "Vita Fontana Top Accessory", "set_id": 69, "icon": "vita_fontana_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "adapt", 1, "alldmg", 1] },
         { "id": 66, "name": "Elrios Guardian Knights Top Accessory", "set_id":271, "icon":"elrios_guardian_knights_top_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "maxi", 3] },
-        { "id": 67, "name": "Tiger's Tale Top Accessory ", "set_id": 71, "icon": "tiger_s_tale_topaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 1, "alldmg", 1] }
+        { "id": 67, "name": "Tiger's Tale Top Accessory ", "set_id": 71, "icon": "tiger_s_tale_topaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 1, "alldmg", 1] },
+        { "id": 68, "name": "Grandiflora Top Accessory", "set_id": 73, "icon": "grandiflora_topaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "aadmg", 1, "acdmg", 1] }
     ],
 
     "botacc": [
@@ -1808,6 +1819,7 @@ accs_list_set = [
     { "id": 70, "name": "Erebus Elegy Accessories", "pieces": 3, "bonus": [[2, "dmg100", 5], [3, "acdmg", 7], [3, "critdmg", 2]], },
     { "id": 71, "name": "Tiger's Tale Accessories", "pieces": 3, "bonus": [[2, "aadmg", 4], [2, "strength", 4], [2, "brave", 4], [3, "dmg100", 6]] },
     { "id": 72, "name": "Crest Drain Accessories", "pieces": 3, "bonus": [[2, "dmg100", 4], [2, "alldmg", 2], [3, "adapt", 2], [3, "patk%", 6], [3, "matk%", 6]] },
+    { "id": 73, "name": "Grandiflora Accessories", "pieces": 3, "bonus": [[2, "dmg50+", 5], [2, "dmg50", 5], [3, "alldmg", 5], [3, "acdmg", 6]] },
     { "id": 73, "name": "None", "pieces": 0, "bonus": [] },
     { "id": 74, "name": "None", "pieces": 0, "bonus": [] },
     { "id": 75, "name": "None", "pieces": 0, "bonus": [] },
@@ -1909,6 +1921,7 @@ accs_list_set = [
     { "id": 170, "name": "Erebus Elegy Costume", "pieces": 5, "bonus": [[2, "crit", 5], [2, "maxi", 5], [4, "acdmg", 5], [5, "aadmg", 5], [5, "adapt", 5]] },
     { "id": 171, "name": "Tiger's Tale Costume", "pieces": 5, "bonus": [[2, "critdmg", 8], [4, "acdmg", 5], [4, "dmg100", 4], [5, "adapt", 5]] },
     { "id": 172, "name": "Crest Drain Costume", "pieces": 5, "bonus": [[2, "crit", 10], [4, "aadmg", 9], [5, "dmg100", 6]] },
+    { "id": 173, "name": "Grandiflora Costume", "pieces": 5, "bonus": [[2, "crit", 5], [2, "maxi", 5], [4, "dmg50+", 5], [4, "dmg50", 5], [5, "acdmg", 10]] },
     { "id": 173, "name": "None", "pieces": 0, "bonus": [] },
     { "id": 174, "name": "None", "pieces": 0, "bonus": [] },
     { "id": 175, "name": "None", "pieces": 0, "bonus": [] },
