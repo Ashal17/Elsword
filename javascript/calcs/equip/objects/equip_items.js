@@ -1042,7 +1042,7 @@ accs_list_items = {
         { "id": 64, "name": "Empire Reign Top Accessory", "set_id": 67, "icon": "empire_reign_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "as", 3] },
         { "id": 65, "name": "Vita Fontana Top Accessory", "set_id": 69, "icon": "vita_fontana_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "adapt", 1, "alldmg", 1] },
         { "id": 66, "name": "Elrios Guardian Knights Top Accessory", "set_id":271, "icon":"elrios_guardian_knights_top_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "maxi", 3] },
-        { "id": 67, "name": "Tiger's Tale Top Accessory ", "set_id": 71, "icon": "tiger_s_tale_topaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 1, "alldmg", 1] }
+        { "id": 67, "name": "Tiger's Tale Top Accessory ", "set_id": 71, "icon": "tiger_s_tale_topaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 1, "alldmg", 1] },
         { "id": 68, "name": "Grandiflora Top Accessory", "set_id": 73, "icon": "grandiflora_topaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "aadmg", 1, "acdmg", 1] }
     ],
 
