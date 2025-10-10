@@ -165,13 +165,20 @@ equip_buff_list = [
     { "id": 476, "name": "Buff - Physical Attack (CP)", "icon": "party_patk", "category": "item", "mode": "mult", "options": ["10%", "9%", "8%", "7%", "6%", "5%", "4%", "3%", "2%", "1%"], "stats": ["patk_mod"], "values": [[10], [9], [8], [7], [6], [5], [4], [3], [2], [1]] },
     { "id": 478, "name": "Buff - Magical Attack (CP)", "icon": "party_matk", "category": "item", "mode": "mult", "options": ["10%", "9%", "8%", "7%", "6%", "5%", "4%", "3%", "2%", "1%"], "stats": ["matk_mod"], "values": [[10], [9], [8], [7], [6], [5], [4], [3], [2], [1]] },
 
-
     { "id": 50, "name": "Stacking Gloves", "icon": "bravestack", "category": "item_auto", "mode": "stacking", "options": ["5 Stacks", "4 Stacks", "3 Stacks", "2 Stacks", "1 Stack"], "stats": ["mdef"], "values": [[5], [4], [3], [2], [1]], "requirement": { "type": "stat", "stats": ["flexstack", "tenastack", "strengthstack", "bravestack"] } },
     {"id": 400, "name": "Tamakhan's Seal - Damage Reduction", "icon": "party_red", "category": "item", "mode": "mult", "options": ["Basic"], "stats": ["red"], "values": [[5]] },
 
     { "id": 667, "name": "Exascale - Compute", "icon": "exascale_compute", "category": "item_auto", "mode": "mult", "options": ["Logic 20", "Logic 15", "Logic 10", "Logic 5", "Reset"], "stats": ["patk_mod", "matk_mod", "master_mod", "hyper_mod"], "values": [[20, 20, 0, 0], [15, 15, 0, 0], [10, 10, 0, 0],  [5, 5, 0, 0], [0, 0, 500, 500]] },
     { "id": 668, "name": "Exascale - Cycle", "icon": "exascale_cycle", "category": "item_auto", "mode": ["add", "mult"], "options": ["Flow", "Resist"], "stats": ["cdrc_mod", "alldmg_mod"], "values": [[8, 0], [8, 16]] },
     { "id": 669, "name": "Exascale - Restore", "icon": "exascale_restore", "category": "item_auto", "mode": "mult_red", "options": ["Repair"], "stats": ["red"], "values": [[12]] },
+    { "id": 731, "name": "Atma of Flame - Speed", "icon": "order_of_the_assassin", "category": "item_auto", "mode": "mult", "options": ["Unique", "Elite", "Rare", "Normal"], "stats": ["as", "ms", "js"], "values": [[7, 7, 7], [6, 6, 6], [5, 5, 5], [4, 4, 4]] },
+    { "id": 732, "name": "Atma of Flame - Special Damage", "icon": "order_of_the_assassin", "category": "item_auto", "mode": "mult", "options": ["Unique", "Elite", "Rare", "Normal"], "stats": ["specialdmg_mod"], "values": [[20], [16], [13], [10]] },
+    { "id": 733, "name": "Atma of Darkness", "icon": "order_of_the_assassin", "category": "item_auto", "mode": "mult", "options": ["Unique - Strength", "Unique - Bravery", "Elite - Strength", "Elite - Bravery", "Rare - Strength", "Rare - Bravery", "Normal - Strength", "Normal - Bravery"], "hidden": [0, 1, 0, 1], "stats": ["strength_mod", "specificstrength_mod", "brave_mod", "specificbrave_mod"], "values": [[25, 25, 0, 0], [0, 0, 25, 25], [21, 21, 0, 0], [0, 0, 21, 21], [18, 18, 0, 0], [0, 0, 18, 18], [15, 15, 0, 0], [0, 0, 15, 15]] },
+    { "id": 734, "name": "Atma of Earth - Hyper", "icon": "order_of_the_assassin", "category": "item_auto", "mode": "mult", "options": ["Unique", "Elite", "Rare", "Normal"], "stats": ["alldmg_mod"], "values": [[20], [16], [13], [10]] },
+    { "id": 727, "name": "Atma of Earth - Trans", "icon": "order_of_the_assassin", "category": "item_auto", "mode": "add", "options": ["Unique", "Elite", "Rare", "Normal"], "stats": ["awk_dmg_mod"], "values": [[30], [20], [15], [10]] },
+    { "id": 728, "name": "Atma of Grove", "icon": "order_of_the_assassin", "category": "item_auto", "mode": "mult", "options": ["Unique", "Elite", "Rare", "Normal"], "stats": ["critdmg_a"], "values": [[30], [26], [23], [20]] },
+    { "id": 729, "name": "Atma of Flow", "icon": "order_of_the_assassin", "category": "item_auto", "mode": "mult", "options": ["Unique", "Elite", "Rare", "Normal"], "stats": ["patk_mod", "matk_mod"], "values": [[20, 20], [16, 16], [13, 13], [10, 10]] },
+    { "id": 730, "name": "Atma of Wind", "icon": "order_of_the_assassin", "category": "item_auto", "mode": "mult", "options": ["Unique", "Elite", "Rare", "Normal"], "stats": ["alldmg_mod"], "values": [[50], [40], [30], [20]] },
 
 
     { "id": 39, "name": "Demonic Vine Crown", "icon": "demonic_vine_crown", "category": "item_auto", "mode": "mult", "options": ["Basic"], "stats": ["patk_mod", "matk_mod"], "values": [[10, 10]], "requirement": { "type": "item", "slot": "facetop", "id": 17 } },
@@ -185,7 +192,7 @@ equip_buff_list = [
     { "id": 500, "name": "Phantom Crest", "icon": "phantom_crest", "category": "item_auto", "mode": "add_s", "options": ["Elemental Resistances > 1000"], "stats": ["alldmg"], "values": [[15]], "pvp_values": [[15]], "requirement": { "type": "item", "slot": "wepacc", "id": 6 } },
     { "id": 555, "name": "Floating Betty", "icon": "floating_betty", "category": "item_auto", "mode": "add_s", "options": ["HP<50%"], "stats": ["alldmg"], "values": [[4]], "requirement": { "type": "item", "slot": "support", "id": 24 } },
     //{ "id": 576, "name": "Tenebrous Reuse", "icon": "bursting_petals", "category": "item_auto", "mode": ["mult_red"], "options": ["Basic"], "stats": ["cdr_mod"], "values": [[8]] },
-    { "id": 664, "name": "Maestro Halo", "icon": "maestro_halo", "category": "item_auto", "mode": "mult", "options": ["Symphony", "Rhythm", "Melody", "Harmony"], "stats": ["ms", "critdmg_a", "alldmg_mod", "patk_mod", "matk_mod"], "values": [[3, 2, 2, 3, 3], [3, 0, 0, 0, 0], [0, 2, 0, 0, 0], [0, 0, 2, 0, 0]], "requirement": { "type": "item", "slot": "facetop", "id": 34 } },
+    { "id": 664, "name": "Maestro Halo", "icon": "maestro_halo", "category": "item_auto", "mode": "mult", "options": ["Symphony", "Rhythm", "Melody", "Harmony"], "stats": ["as", "critdmg_a", "alldmg_mod", "patk_mod", "matk_mod"], "values": [[3, 2, 5, 5, 5], [3, 0, 0, 0, 0], [0, 2, 0, 0, 0], [0, 0, 5, 0, 0]], "requirement": { "type": "item", "slot": "facetop", "id": 34 } },
     { "id": 665, "name": "Antenna Earrings", "icon": "antenna_earrings", "category": "item_auto", "mode": "mult", "options": ["Basic"], "stats": ["alldmg_mod"], "values": [[8]], "requirement": { "type": "item", "slot": "faceear", "id": 31 } },
     //IB
     { "id": 46, "name": "Heaven's Combat", "icon": "heavens_combat", "category": "item", "mode": "mult", "options": ["30 Stacks", "29 Stacks", "28 Stacks", "27 Stacks", "26 Stacks", "25 Stacks", "24 Stacks", "23 Stacks", "22 Stacks", "21 Stacks", "20 Stacks", "19 Stacks", "18 Stacks", "17 Stacks", "16 Stacks", "15 Stacks", "14 Stacks", "13 Stacks", "12 Stacks", "11 Stacks", "10 Stacks", "9 Stacks", "8 Stacks", "7 Stacks", "6 Stacks", "5 Stacks", "4 Stacks", "3 Stacks", "2 Stacks", "1 Stack"], "stats": ["patk_mod", "matk_mod"], "values": [[15, 15], [14.5, 14.5], [14, 14], [13.5, 13.5], [13, 13], [12.5, 12.5], [12, 12], [11.5, 11.5], [11, 11], [10.5, 10.5], [10, 10], [9.5, 9.5], [9, 9], [8.5, 8.5], [8, 8], [7.5, 7.5], [7, 7], [6.5, 6.5], [6, 6], [5.5, 5.5], [5, 5], [4.5, 4.5], [4, 4], [3.5, 3.5], [3, 3], [2.5, 2.5], [2, 2], [1.5, 1.5], [1, 1], [0.5, 0.5]] },
@@ -829,7 +836,7 @@ equip_buff_list = [
     { "id": 722, "name": "Echo of Death", "icon": "oblivion", "category": "debuff", "mode": "mult_debuff", "options": ["Basic"], "stats": ["critdmg"], "values": [[12]], "pvp_values": [[12]] },
     { "id": 473, "name": "Shadow", "icon": "shadow", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["mdefreduction"], "values": [[31]], "pvp_values": [[15.5]] },
     { "id": 711, "name": "Shadow Bolt", "icon": "shadow_bolt", "category": "debuff", "mode": "mult_debuff", "options": ["Basic"], "stats": ["critdmg"], "values": [[10]], "pvp_values": [[10]] },
-    { "id": 430, "name": "[Force] Altar of Evil", "icon": "altar_of_evil", "category": "debuff", "mode": "mult_debuff", "options": ["Basic"], "stats": ["crit_dmg"], "values": [[12]] },
+    { "id": 430, "name": "[Force] Altar of Evil", "icon": "altar_of_evil", "category": "debuff", "mode": "mult_debuff", "options": ["Basic"], "stats": ["critdmg"], "values": [[12]] },
     { "id": 467, "name": "Infernal Hands", "icon": "infernal_hands", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 624, "name": "Thorns of Hell", "icon": "thorns_of_hell", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[33, 33]], "pvp_values": [[16.5, 16.5]] },
     { "id": 625, "name": "Dark Plasma", "icon": "dark_plasma", "category": "debuff", "mode": "mult", "options": ["Basic"], "stats": ["awk_dmg_mod"], "values": [[12]], "pvp_values": [[12]] },
@@ -874,7 +881,7 @@ equip_buff_list = [
     { "id": 628, "name": "Reaper", "icon": "reaper", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[20, 20]] },
     { "id": 629, "name": "Festival!", "icon": "festival", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[10, 10]] },
     { "id": 642, "name": "Attack of Steel Machines", "icon": "attack_of_steel_machines", "category": "debuff", "mode": "mult_red", "options": ["Basic"], "stats": ["pdefreduction", "mdefreduction"], "values": [[48, 48]] },
-    //723
+    //735
 ]
 
 equip_buff_reserved_list = [20, 63, 86, 89, 198, 224, 226, 249, 261, 282, 328, 367, 576, 227, 637, 531, 422, 435, 242, 361, 354, 270, 679, 710]
@@ -885,4 +892,3 @@ equip_buff_list_categories = {
     "item_auto": "All - Item",
     "debuff": "All - Debuff"
 }
-

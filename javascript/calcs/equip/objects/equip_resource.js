@@ -1161,6 +1161,12 @@ accs_list_stat = [
         "type": "percent",
         "regular": true,
         "manual": false
+    }, {
+        "long_name": "Physical and Magical Attack %",
+        "short_name": "atk%",
+        "type": "percent",
+        "regular": false,
+        "manual": false
     },
     {
         "long_name": "Physical Attack %",
@@ -1175,6 +1181,13 @@ accs_list_stat = [
         "type": "percent",
         "regular": true,
         "manual": true
+    },
+    {
+        "long_name": "Physical and Magical Defense %",
+        "short_name": "def%",
+        "type": "percent",
+        "regular": false,
+        "manual": false
     },
     {
         "long_name": "Physical Defense %",
@@ -1484,6 +1497,13 @@ accs_list_stat = [
         "manual": true,
         "cp": 1,
         "pvp_reduction": 0
+    },
+    {
+        "long_name": "Physical and Magical Defense Ignore",
+        "short_name": "defignore",
+        "type": "percent",
+        "regular": false,
+        "manual": false
     },
     {
         "long_name": "Physical Defense Ignore",
@@ -2973,6 +2993,9 @@ accs_list_combined = [
     { "main": "cdrc", "children": ["flexcdrc", "tenacdrc", "strengthcdrc", "bravecdrc"] },
     { "main": "elemall", "children": ["elemfir", "elemwat", "elemnat", "elemwin", "elemlig", "elemdar"] },
     { "main": "specialdmg", "children": ["tena", "strength", "brave"] },
+    { "main": "def%", "children": ["pdef%", "mdef%"] },
+    { "main": "atk%", "children": ["patk%", "matk%"] },
+    { "main": "defignore", "children": ["pdefignore", "mdefignore"] },
 ]
 
 accs_list_stat_transform = {
@@ -3312,6 +3335,7 @@ accs_list_stat_transform = {
         { "stat": "mpattacked", "change": "add", "mods": [-100] },
         { "stat": "crit_r_m", "change": "add", "mods": [-100] },
         { "stat": "maxi_r_m", "change": "add", "mods": [-100] },
+
 
         { "stat": "elemfir", "change": "mult", "mods": ["elemall_m"] },
         { "stat": "elemwat", "change": "mult", "mods": ["elemall_m"] },
