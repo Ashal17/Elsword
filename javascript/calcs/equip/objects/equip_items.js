@@ -756,6 +756,7 @@ accs_list_items = {
         { "id": 16, "name": "Erebus Elegy Support Unit Accessory", "set_id": 70, "icon": "erebus_elegy_support_unit_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 2, "maxi", 1] },
         { "id": 17, "name": "Elrios Guardian Knights Support Unit Accessory", "set_id":271, "icon":"elrios_guardian_knights_support_unit_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "crit", 2, "maxi", 2] },
         { "id": 18, "name": "Grandiflora Support Unit Accessory", "set_id": 73, "icon": "grandiflora_support_unit_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 2, "cdr", 5] },
+        { "id": 30, "name": "Fan Light", "set_id": 0, "icon": "fan_light", "char_icon": 0, "required_lvl": 0, "fixed": ["patk", 60, "matk", 60, "alldmg", 1] }
     ],
 
 
@@ -899,8 +900,9 @@ accs_list_items = {
         { "id": 7, "name": "Dreaming Automata Face Bottom", "set_id": 61, "icon": "dreaming_automata_face_bottom", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "as", 4] },
         { "id": 8, "name": "Flos Magica Face Bottom", "set_id": 60, "icon": "flos_magica_face_bottom", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "crit", 3, "critdmg", 1] },
         { "id": 9, "name": "Erebus Elegy Face Bottom Accessory", "set_id": 70, "icon": "erebus_elegy_face_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "mpr", 5] },
-        { "id": 10, "name": "Elrios Guardian Knights Face Bottom Accessory", "set_id":271, "icon":"elrios_guardian_knights_face_bottom_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "crit", 3] }, 
-        { "id": 11, "name": "Grandiflora Face Bottom Accessory", "set_id": 73, "icon": "grandiflora_face_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 2] } 
+        { "id": 10, "name": "Elrios Guardian Knights Face Bottom Accessory", "set_id": 271, "icon": "elrios_guardian_knights_face_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 25, "matk", 25, "as", 1, "crit", 3] },
+        { "id": 11, "name": "Grandiflora Face Bottom Accessory", "set_id": 73, "icon": "grandiflora_face_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 2] },
+        { "id": 30, "name": "[ElsRift] Henir Bubble Gum (Mystery Flavor)", "set_id": 0, "icon": "henir_bubble_gum", "char_icon": 0, "required_lvl": 0, "fixed": ["adapt", 2, "maxmp", 30] }
     ],
 
     "faceear": [
